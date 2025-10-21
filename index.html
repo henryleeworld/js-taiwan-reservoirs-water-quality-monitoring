@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta property="og:title" content="台灣水庫水質監測" />
+        <meta property="og:description" content="台灣衡量水庫優養化狀態採用卡爾森指數（CTSI），以總磷、葉綠素 a、透明度等項目綜合評估水庫水質，卡爾森指數將優養化程度分為三級，低於 40 屬「貧養」等級，表示水質優良；高於 50 屬「優養」等級，表示水質不佳；介於 40 至 50 之中屬「普養」等級，表示水質普通。" />
+        <meta property="og:locale" content="zh_TW" />
+        <meta property="og:type" content="website" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.8/css/bootstrap.min.css" integrity="sha512-2bBQCjcnw658Lho4nlXJcc6WkV/UxpE/sAokbXPxQNGqmNdQrWqtw26Ns9kFF/yG792pKR1Sx8/Y1Lf1XN4GKA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" integrity="sha512-h9FcoyWjHcOcmEVkxOfTLnmZFWIH0iZhZT1H2TbOq55xssQGEJHEaIm+PgoUaZbRvQTNTluNOEfb1ZRy6D3BOw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/water-quality-monitoring.css" />
+        <title>台灣水庫水質監測</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>台灣水庫水質監測</h1>
+            <p>衡量水庫優養化狀態採用卡爾森指數（CTSI）</p>
+        </div>
+        <div class="controls">
+            <div class="year-selector">
+                <label for="yearSelect"><strong>選擇年份：</strong></label>
+                <select id="yearSelect">
+                    <option value="2025" selected>2025</option>
+                    <option value="2024">2024</option>
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                </select>
+            </div>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="搜尋水庫名稱..." />
+            </div>
+            <div>
+                <a href="https://wq.moenv.gov.tw/EWQP/zh/EnvWaterMonitoring/Reservoir.aspx" target="_blank" class="btn btn-sm btn-primary">資料來源</a>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="reservoirs-grid" id="reservoirsGrid"></div>
+        </div>
+        <div id="detailModal" class="modal">
+            <div class="modal-content">
+                <button class="modal-close" id="modalClose">&times;</button>
+                <div id="modalBody"></div>
+            </div>
+        </div>
+        <div class="loading" id="loading">
+            <div class="loading-spinner"></div>
+            <div>載入中...</div>
+        </div>
+        <div style="position: fixed; top: 80px; right: 20px; background: rgba(255, 255, 255, 0.95); padding: 15px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); z-index: 1000; max-width: 200px;">
+            <h6 style="margin: 0 0 10px 0; color: #667eea; font-size: 14px; font-weight: bold;">卡爾森指數圖例</h6>
+            <div style="font-size: 12px; line-height: 1.8;">
+                <div style="margin: 5px 0;">
+                    <span style="display: inline-block; width: 16px; height: 16px; background: #3498db; border-radius: 50%; margin-right: 8px; vertical-align: middle;"></span>
+                    <span>&lt;40 貧養</span>
+                </div>
+                <div style="margin: 5px 0;">
+                    <span style="display: inline-block; width: 16px; height: 16px; background: #27ae60; border-radius: 50%; margin-right: 8px; vertical-align: middle;"></span>
+                    <span>40-50 普養</span>
+                </div>
+                <div style="margin: 5px 0;">
+                    <span style="display: inline-block; width: 16px; height: 16px; background: #f39c12; border-radius: 50%; margin-right: 8px; vertical-align: middle;"></span>
+                    <span>&gt;50 優養</span>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" referrerpolicy="no-referrer" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.5.0/chart.umd.min.js" integrity="sha512-Y51n9mtKTVBh3Jbx5pZSJNDDMyY+yGe77DGtBPzRlgsf/YLCh13kSZ3JmfHGzYFCmOndraf0sQgfM654b7dJ3w==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+        <script src="js/water-quality-monitoring.js" defer></script>
+    </body>
+</html>

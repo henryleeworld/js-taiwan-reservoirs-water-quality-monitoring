@@ -1,0 +1,2778 @@
+{
+    "2088": {
+        "twd97lon": "121.7094750",
+        "twd97lat": "25.1286690",
+        "data": {
+            "20190906": [
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "葉綠素a",
+                    "itemengname": "Chlorophyl-A",
+                    "itemengabbreviation": "Chl-A",
+                    "itemvalue": "1.7",
+                    "itemunit": "μg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "總磷",
+                    "itemengname": "Total-Phosphate",
+                    "itemengabbreviation": "TP",
+                    "itemvalue": "0.020",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "溶氧飽和度",
+                    "itemengname": "Dissolved Oxygen Saturation",
+                    "itemengabbreviation": "DOS",
+                    "itemvalue": "104.1",
+                    "itemunit": "%",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "氨氮",
+                    "itemengname": "NH3-N",
+                    "itemengabbreviation": "NH3-N",
+                    "itemvalue": "<0.01",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "總有機碳",
+                    "itemengname": "Total Organic Carbon",
+                    "itemengabbreviation": "TOC",
+                    "itemvalue": "1.58",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "化學需氧量",
+                    "itemengname": "Chemical Oxygen Demand",
+                    "itemengabbreviation": "COD",
+                    "itemvalue": "10.5",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "溶氧(電極法)",
+                    "itemengname": "Dissolved Oxygen",
+                    "itemengabbreviation": "DO",
+                    "itemvalue": "7.7",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "懸浮固體",
+                    "itemengname": "Suspended Solid",
+                    "itemengabbreviation": "SS",
+                    "itemvalue": "1.2",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "氣溫",
+                    "itemengname": "Temperature",
+                    "itemengabbreviation": "TMP",
+                    "itemvalue": "29.8",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "採樣深度",
+                    "itemengname": "Sampling Depth",
+                    "itemengabbreviation": "SDP",
+                    "itemvalue": "0.5",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "導電度",
+                    "itemengname": "Conductivity",
+                    "itemengabbreviation": "EC",
+                    "itemvalue": "109",
+                    "itemunit": "μmho\/cm25℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "濁度",
+                    "itemengname": "Turbidity",
+                    "itemengabbreviation": "TB",
+                    "itemvalue": "1.5",
+                    "itemunit": "NTU",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "酸鹼值",
+                    "itemengname": "pH",
+                    "itemengabbreviation": "pH",
+                    "itemvalue": "8.02",
+                    "itemunit": "",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "透明度",
+                    "itemengname": "Transparency",
+                    "itemengabbreviation": "SD",
+                    "itemvalue": "1.6",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "水溫",
+                    "itemengname": "Water Temperature",
+                    "itemengabbreviation": "WT",
+                    "itemvalue": "30.0",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "卡爾森指數",
+                    "itemengname": "Carlson Trophic State Index",
+                    "itemengabbreviation": "CTSI",
+                    "itemvalue": "45.46",
+                    "itemunit": "",
+                    "note": ""
+                }
+            ],
+            "20191005": [
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "葉綠素a",
+                    "itemengname": "Chlorophyl-A",
+                    "itemengabbreviation": "Chl-A",
+                    "itemvalue": "1.8",
+                    "itemunit": "μg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "總磷",
+                    "itemengname": "Total-Phosphate",
+                    "itemengabbreviation": "TP",
+                    "itemvalue": "0.012",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "溶氧飽和度",
+                    "itemengname": "Dissolved Oxygen Saturation",
+                    "itemengabbreviation": "DOS",
+                    "itemvalue": "106.6",
+                    "itemunit": "%",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "氨氮",
+                    "itemengname": "NH3-N",
+                    "itemengabbreviation": "NH3-N",
+                    "itemvalue": "<0.01",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "總有機碳",
+                    "itemengname": "Total Organic Carbon",
+                    "itemengabbreviation": "TOC",
+                    "itemvalue": "1.50",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "化學需氧量",
+                    "itemengname": "Chemical Oxygen Demand",
+                    "itemengabbreviation": "COD",
+                    "itemvalue": "8.4",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "溶氧(電極法)",
+                    "itemengname": "Dissolved Oxygen",
+                    "itemengabbreviation": "DO",
+                    "itemvalue": "8.4",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "懸浮固體",
+                    "itemengname": "Suspended Solid",
+                    "itemengabbreviation": "SS",
+                    "itemvalue": "1.8",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "氣溫",
+                    "itemengname": "Temperature",
+                    "itemengabbreviation": "TMP",
+                    "itemvalue": "28.8",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "採樣深度",
+                    "itemengname": "Sampling Depth",
+                    "itemengabbreviation": "SDP",
+                    "itemvalue": "0.5",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "導電度",
+                    "itemengname": "Conductivity",
+                    "itemengabbreviation": "EC",
+                    "itemvalue": "115",
+                    "itemunit": "μmho\/cm25℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "濁度",
+                    "itemengname": "Turbidity",
+                    "itemengabbreviation": "TB",
+                    "itemvalue": "2.4",
+                    "itemunit": "NTU",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "酸鹼值",
+                    "itemengname": "pH",
+                    "itemengabbreviation": "pH",
+                    "itemvalue": "7.42",
+                    "itemunit": "",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "透明度",
+                    "itemengname": "Transparency",
+                    "itemengabbreviation": "SD",
+                    "itemvalue": "1.2",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "水溫",
+                    "itemengname": "Water Temperature",
+                    "itemengabbreviation": "WT",
+                    "itemvalue": "27.3",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "卡爾森指數",
+                    "itemengname": "Carlson Trophic State Index",
+                    "itemengabbreviation": "CTSI",
+                    "itemvalue": "44.57",
+                    "itemunit": "",
+                    "note": ""
+                }
+            ],
+            "20190102": [
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "葉綠素a",
+                    "itemengname": "Chlorophyl-A",
+                    "itemengabbreviation": "Chl-A",
+                    "itemvalue": "3.2",
+                    "itemunit": "μg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "總磷",
+                    "itemengname": "Total-Phosphate",
+                    "itemengabbreviation": "TP",
+                    "itemvalue": "0.030",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "溶氧飽和度",
+                    "itemengname": "Dissolved Oxygen Saturation",
+                    "itemengabbreviation": "DOS",
+                    "itemvalue": "85.8",
+                    "itemunit": "%",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "氨氮",
+                    "itemengname": "NH3-N",
+                    "itemengabbreviation": "NH3-N",
+                    "itemvalue": "0.01",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "總有機碳",
+                    "itemengname": "Total Organic Carbon",
+                    "itemengabbreviation": "TOC",
+                    "itemvalue": "0.80",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "化學需氧量",
+                    "itemengname": "Chemical Oxygen Demand",
+                    "itemengabbreviation": "COD",
+                    "itemvalue": "<4.0",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "溶氧(電極法)",
+                    "itemengname": "Dissolved Oxygen",
+                    "itemengabbreviation": "DO",
+                    "itemvalue": "8.1",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "懸浮固體",
+                    "itemengname": "Suspended Solid",
+                    "itemengabbreviation": "SS",
+                    "itemvalue": "2.5",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "氣溫",
+                    "itemengname": "Temperature",
+                    "itemengabbreviation": "TMP",
+                    "itemvalue": "16.3",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "採樣深度",
+                    "itemengname": "Sampling Depth",
+                    "itemengabbreviation": "SDP",
+                    "itemvalue": "0.5",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "導電度",
+                    "itemengname": "Conductivity",
+                    "itemengabbreviation": "EC",
+                    "itemvalue": "156",
+                    "itemunit": "μmho\/cm25℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "濁度",
+                    "itemengname": "Turbidity",
+                    "itemengabbreviation": "TB",
+                    "itemvalue": "2.0",
+                    "itemunit": "NTU",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "酸鹼值",
+                    "itemengname": "pH",
+                    "itemengabbreviation": "pH",
+                    "itemvalue": "7.02",
+                    "itemunit": "",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "透明度",
+                    "itemengname": "Transparency",
+                    "itemengabbreviation": "SD",
+                    "itemvalue": "2.0",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "水溫",
+                    "itemengname": "Water Temperature",
+                    "itemengabbreviation": "WT",
+                    "itemvalue": "18.6",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "卡爾森指數",
+                    "itemengname": "Carlson Trophic State Index",
+                    "itemengabbreviation": "CTSI",
+                    "itemvalue": "48.41",
+                    "itemunit": "",
+                    "note": ""
+                }
+            ],
+            "20190305": [
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "葉綠素a",
+                    "itemengname": "Chlorophyl-A",
+                    "itemengabbreviation": "Chl-A",
+                    "itemvalue": "3.1",
+                    "itemunit": "μg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "總磷",
+                    "itemengname": "Total-Phosphate",
+                    "itemengabbreviation": "TP",
+                    "itemvalue": "0.032",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "溶氧飽和度",
+                    "itemengname": "Dissolved Oxygen Saturation",
+                    "itemengabbreviation": "DOS",
+                    "itemvalue": "111.3",
+                    "itemunit": "%",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "氨氮",
+                    "itemengname": "NH3-N",
+                    "itemengabbreviation": "NH3-N",
+                    "itemvalue": "<0.01",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "總有機碳",
+                    "itemengname": "Total Organic Carbon",
+                    "itemengabbreviation": "TOC",
+                    "itemvalue": "1.16",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "化學需氧量",
+                    "itemengname": "Chemical Oxygen Demand",
+                    "itemengabbreviation": "COD",
+                    "itemvalue": "<4.0",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "溶氧(電極法)",
+                    "itemengname": "Dissolved Oxygen",
+                    "itemengabbreviation": "DO",
+                    "itemvalue": "10.4",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "懸浮固體",
+                    "itemengname": "Suspended Solid",
+                    "itemengabbreviation": "SS",
+                    "itemvalue": "2.6",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "氣溫",
+                    "itemengname": "Temperature",
+                    "itemengabbreviation": "TMP",
+                    "itemvalue": "18.3",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "採樣深度",
+                    "itemengname": "Sampling Depth",
+                    "itemengabbreviation": "SDP",
+                    "itemvalue": "0.5",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "導電度",
+                    "itemengname": "Conductivity",
+                    "itemengabbreviation": "EC",
+                    "itemvalue": "135",
+                    "itemunit": "μmho\/cm25℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "濁度",
+                    "itemengname": "Turbidity",
+                    "itemengabbreviation": "TB",
+                    "itemvalue": "1.6",
+                    "itemunit": "NTU",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "酸鹼值",
+                    "itemengname": "pH",
+                    "itemengabbreviation": "pH",
+                    "itemvalue": "7.40",
+                    "itemunit": "",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "透明度",
+                    "itemengname": "Transparency",
+                    "itemengabbreviation": "SD",
+                    "itemvalue": "1.6",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "水溫",
+                    "itemengname": "Water Temperature",
+                    "itemengabbreviation": "WT",
+                    "itemvalue": "18.4",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "卡爾森指數",
+                    "itemengname": "Carlson Trophic State Index",
+                    "itemengabbreviation": "CTSI",
+                    "itemvalue": "49.68",
+                    "itemunit": "",
+                    "note": ""
+                }
+            ],
+            "20190410": [
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "葉綠素a",
+                    "itemengname": "Chlorophyl-A",
+                    "itemengabbreviation": "Chl-A",
+                    "itemvalue": "5.6",
+                    "itemunit": "μg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "總磷",
+                    "itemengname": "Total-Phosphate",
+                    "itemengabbreviation": "TP",
+                    "itemvalue": "0.008",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "溶氧飽和度",
+                    "itemengname": "Dissolved Oxygen Saturation",
+                    "itemengabbreviation": "DOS",
+                    "itemvalue": "115.2",
+                    "itemunit": "%",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "氨氮",
+                    "itemengname": "NH3-N",
+                    "itemengabbreviation": "NH3-N",
+                    "itemvalue": "0.01",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "總有機碳",
+                    "itemengname": "Total Organic Carbon",
+                    "itemengabbreviation": "TOC",
+                    "itemvalue": "1.18",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "化學需氧量",
+                    "itemengname": "Chemical Oxygen Demand",
+                    "itemengabbreviation": "COD",
+                    "itemvalue": "8.6",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "溶氧(電極法)",
+                    "itemengname": "Dissolved Oxygen",
+                    "itemengabbreviation": "DO",
+                    "itemvalue": "9.6",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "懸浮固體",
+                    "itemengname": "Suspended Solid",
+                    "itemengabbreviation": "SS",
+                    "itemvalue": "1.7",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "氣溫",
+                    "itemengname": "Temperature",
+                    "itemengabbreviation": "TMP",
+                    "itemvalue": "28.1",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "採樣深度",
+                    "itemengname": "Sampling Depth",
+                    "itemengabbreviation": "SDP",
+                    "itemvalue": "0.5",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "導電度",
+                    "itemengname": "Conductivity",
+                    "itemengabbreviation": "EC",
+                    "itemvalue": "132",
+                    "itemunit": "μmho\/cm25℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "濁度",
+                    "itemengname": "Turbidity",
+                    "itemengabbreviation": "TB",
+                    "itemvalue": "1.8",
+                    "itemunit": "NTU",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "酸鹼值",
+                    "itemengname": "pH",
+                    "itemengabbreviation": "pH",
+                    "itemvalue": "8.46",
+                    "itemunit": "",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "透明度",
+                    "itemengname": "Transparency",
+                    "itemengabbreviation": "SD",
+                    "itemvalue": "2.8",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "水溫",
+                    "itemengname": "Water Temperature",
+                    "itemengabbreviation": "WT",
+                    "itemvalue": "24.1",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "卡爾森指數",
+                    "itemengname": "Carlson Trophic State Index",
+                    "itemengabbreviation": "CTSI",
+                    "itemvalue": "42.27",
+                    "itemunit": "",
+                    "note": ""
+                }
+            ],
+            "20190620": [
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "葉綠素a",
+                    "itemengname": "Chlorophyl-A",
+                    "itemengabbreviation": "Chl-A",
+                    "itemvalue": "5.6",
+                    "itemunit": "μg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "總磷",
+                    "itemengname": "Total-Phosphate",
+                    "itemengabbreviation": "TP",
+                    "itemvalue": "0.008",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "溶氧飽和度",
+                    "itemengname": "Dissolved Oxygen Saturation",
+                    "itemengabbreviation": "DOS",
+                    "itemvalue": "126.4",
+                    "itemunit": "%",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "氨氮",
+                    "itemengname": "NH3-N",
+                    "itemengabbreviation": "NH3-N",
+                    "itemvalue": "0.04",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "總有機碳",
+                    "itemengname": "Total Organic Carbon",
+                    "itemengabbreviation": "TOC",
+                    "itemvalue": "1.71",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "化學需氧量",
+                    "itemengname": "Chemical Oxygen Demand",
+                    "itemengabbreviation": "COD",
+                    "itemvalue": "11.6",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "溶氧(電極法)",
+                    "itemengname": "Dissolved Oxygen",
+                    "itemengabbreviation": "DO",
+                    "itemvalue": "9.5",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "懸浮固體",
+                    "itemengname": "Suspended Solid",
+                    "itemengabbreviation": "SS",
+                    "itemvalue": "2.1",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "氣溫",
+                    "itemengname": "Temperature",
+                    "itemengabbreviation": "TMP",
+                    "itemvalue": "33.2",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "採樣深度",
+                    "itemengname": "Sampling Depth",
+                    "itemengabbreviation": "SDP",
+                    "itemvalue": "0.5",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "導電度",
+                    "itemengname": "Conductivity",
+                    "itemengabbreviation": "EC",
+                    "itemvalue": "118",
+                    "itemunit": "μmho\/cm25℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "濁度",
+                    "itemengname": "Turbidity",
+                    "itemengabbreviation": "TB",
+                    "itemvalue": "1.9",
+                    "itemunit": "NTU",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "酸鹼值",
+                    "itemengname": "pH",
+                    "itemengabbreviation": "pH",
+                    "itemvalue": "8.44",
+                    "itemunit": "",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "透明度",
+                    "itemengname": "Transparency",
+                    "itemengabbreviation": "SD",
+                    "itemvalue": "2.6",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "水溫",
+                    "itemengname": "Water Temperature",
+                    "itemengabbreviation": "WT",
+                    "itemvalue": "29.5",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "卡爾森指數",
+                    "itemengname": "Carlson Trophic State Index",
+                    "itemengabbreviation": "CTSI",
+                    "itemvalue": "42.62",
+                    "itemunit": "",
+                    "note": ""
+                }
+            ],
+            "20190710": [
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "葉綠素a",
+                    "itemengname": "Chlorophyl-A",
+                    "itemengabbreviation": "Chl-A",
+                    "itemvalue": "4.5",
+                    "itemunit": "μg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "總磷",
+                    "itemengname": "Total-Phosphate",
+                    "itemengabbreviation": "TP",
+                    "itemvalue": "0.025",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "溶氧飽和度",
+                    "itemengname": "Dissolved Oxygen Saturation",
+                    "itemengabbreviation": "DOS",
+                    "itemvalue": "124.4",
+                    "itemunit": "%",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "氨氮",
+                    "itemengname": "NH3-N",
+                    "itemengabbreviation": "NH3-N",
+                    "itemvalue": "0.04",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "總有機碳",
+                    "itemengname": "Total Organic Carbon",
+                    "itemengabbreviation": "TOC",
+                    "itemvalue": "1.73",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "化學需氧量",
+                    "itemengname": "Chemical Oxygen Demand",
+                    "itemengabbreviation": "COD",
+                    "itemvalue": "8.2",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "溶氧(電極法)",
+                    "itemengname": "Dissolved Oxygen",
+                    "itemengabbreviation": "DO",
+                    "itemvalue": "9.2",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "懸浮固體",
+                    "itemengname": "Suspended Solid",
+                    "itemengabbreviation": "SS",
+                    "itemvalue": "1.1",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "氣溫",
+                    "itemengname": "Temperature",
+                    "itemengabbreviation": "TMP",
+                    "itemvalue": "32.4",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "採樣深度",
+                    "itemengname": "Sampling Depth",
+                    "itemengabbreviation": "SDP",
+                    "itemvalue": "0.5",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "導電度",
+                    "itemengname": "Conductivity",
+                    "itemengabbreviation": "EC",
+                    "itemvalue": "118",
+                    "itemunit": "μmho\/cm25℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "濁度",
+                    "itemengname": "Turbidity",
+                    "itemengabbreviation": "TB",
+                    "itemvalue": "2.5",
+                    "itemunit": "NTU",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "酸鹼值",
+                    "itemengname": "pH",
+                    "itemengabbreviation": "pH",
+                    "itemvalue": "8.68",
+                    "itemunit": "",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "透明度",
+                    "itemengname": "Transparency",
+                    "itemengabbreviation": "SD",
+                    "itemvalue": "1.0",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "水溫",
+                    "itemengname": "Water Temperature",
+                    "itemengabbreviation": "WT",
+                    "itemvalue": "30.5",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "卡爾森指數",
+                    "itemengname": "Carlson Trophic State Index",
+                    "itemengabbreviation": "CTSI",
+                    "itemvalue": "51.97",
+                    "itemunit": "",
+                    "note": ""
+                }
+            ],
+            "20191206": [
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "葉綠素a",
+                    "itemengname": "Chlorophyl-A",
+                    "itemengabbreviation": "Chl-A",
+                    "itemvalue": "1.5",
+                    "itemunit": "μg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "總磷",
+                    "itemengname": "Total-Phosphate",
+                    "itemengabbreviation": "TP",
+                    "itemvalue": "0.012",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "溶氧飽和度",
+                    "itemengname": "Dissolved Oxygen Saturation",
+                    "itemengabbreviation": "DOS",
+                    "itemvalue": "82.1",
+                    "itemunit": "%",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "氨氮",
+                    "itemengname": "NH3-N",
+                    "itemengabbreviation": "NH3-N",
+                    "itemvalue": "0.06",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "總有機碳",
+                    "itemengname": "Total Organic Carbon",
+                    "itemengabbreviation": "TOC",
+                    "itemvalue": "0.95",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "化學需氧量",
+                    "itemengname": "Chemical Oxygen Demand",
+                    "itemengabbreviation": "COD",
+                    "itemvalue": "10.9",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "溶氧(電極法)",
+                    "itemengname": "Dissolved Oxygen",
+                    "itemengabbreviation": "DO",
+                    "itemvalue": "7.6",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "懸浮固體",
+                    "itemengname": "Suspended Solid",
+                    "itemengabbreviation": "SS",
+                    "itemvalue": "2.6",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "氣溫",
+                    "itemengname": "Temperature",
+                    "itemengabbreviation": "TMP",
+                    "itemvalue": "14.8",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "採樣深度",
+                    "itemengname": "Sampling Depth",
+                    "itemengabbreviation": "SDP",
+                    "itemvalue": "0.5",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "導電度",
+                    "itemengname": "Conductivity",
+                    "itemengabbreviation": "EC",
+                    "itemvalue": "124",
+                    "itemunit": "μmho\/cm25℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "濁度",
+                    "itemengname": "Turbidity",
+                    "itemengabbreviation": "TB",
+                    "itemvalue": "1.5",
+                    "itemunit": "NTU",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "酸鹼值",
+                    "itemengname": "pH",
+                    "itemengabbreviation": "pH",
+                    "itemvalue": "7.09",
+                    "itemunit": "",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "透明度",
+                    "itemengname": "Transparency",
+                    "itemengabbreviation": "SD",
+                    "itemvalue": "1.8",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "水溫",
+                    "itemengname": "Water Temperature",
+                    "itemengabbreviation": "WT",
+                    "itemvalue": "19.1",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "卡爾森指數",
+                    "itemengname": "Carlson Trophic State Index",
+                    "itemengabbreviation": "CTSI",
+                    "itemvalue": "42.03",
+                    "itemunit": "",
+                    "note": ""
+                }
+            ]
+        }
+    },
+    "2087": {
+        "twd97lon": "121.7103550",
+        "twd97lat": "25.1335760",
+        "data": {
+            "20190906": [
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "葉綠素a",
+                    "itemengname": "Chlorophyl-A",
+                    "itemengabbreviation": "Chl-A",
+                    "itemvalue": "1.5",
+                    "itemunit": "μg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "總磷",
+                    "itemengname": "Total-Phosphate",
+                    "itemengabbreviation": "TP",
+                    "itemvalue": "0.036",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "溶氧飽和度",
+                    "itemengname": "Dissolved Oxygen Saturation",
+                    "itemengabbreviation": "DOS",
+                    "itemvalue": "102.9",
+                    "itemunit": "%",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "氨氮",
+                    "itemengname": "NH3-N",
+                    "itemengabbreviation": "NH3-N",
+                    "itemvalue": "<0.01",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "總有機碳",
+                    "itemengname": "Total Organic Carbon",
+                    "itemengabbreviation": "TOC",
+                    "itemvalue": "1.70",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "化學需氧量",
+                    "itemengname": "Chemical Oxygen Demand",
+                    "itemengabbreviation": "COD",
+                    "itemvalue": "10.1",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "溶氧(電極法)",
+                    "itemengname": "Dissolved Oxygen",
+                    "itemengabbreviation": "DO",
+                    "itemvalue": "7.6",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "懸浮固體",
+                    "itemengname": "Suspended Solid",
+                    "itemengabbreviation": "SS",
+                    "itemvalue": "1.2",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "氣溫",
+                    "itemengname": "Temperature",
+                    "itemengabbreviation": "TMP",
+                    "itemvalue": "29.5",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "採樣深度",
+                    "itemengname": "Sampling Depth",
+                    "itemengabbreviation": "SDP",
+                    "itemvalue": "0.5",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "導電度",
+                    "itemengname": "Conductivity",
+                    "itemengabbreviation": "EC",
+                    "itemvalue": "166",
+                    "itemunit": "μmho\/cm25℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "濁度",
+                    "itemengname": "Turbidity",
+                    "itemengabbreviation": "TB",
+                    "itemvalue": "1.6",
+                    "itemunit": "NTU",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "酸鹼值",
+                    "itemengname": "pH",
+                    "itemengabbreviation": "pH",
+                    "itemvalue": "8.24",
+                    "itemunit": "",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "透明度",
+                    "itemengname": "Transparency",
+                    "itemengabbreviation": "SD",
+                    "itemvalue": "1.6",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "水溫",
+                    "itemengname": "Water Temperature",
+                    "itemengabbreviation": "WT",
+                    "itemvalue": "29.9",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "卡爾森指數",
+                    "itemengname": "Carlson Trophic State Index",
+                    "itemengabbreviation": "CTSI",
+                    "itemvalue": "47.88",
+                    "itemunit": "",
+                    "note": ""
+                }
+            ],
+            "20191005": [
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "葉綠素a",
+                    "itemengname": "Chlorophyl-A",
+                    "itemengabbreviation": "Chl-A",
+                    "itemvalue": "1.4",
+                    "itemunit": "μg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "總磷",
+                    "itemengname": "Total-Phosphate",
+                    "itemengabbreviation": "TP",
+                    "itemvalue": "0.015",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "溶氧飽和度",
+                    "itemengname": "Dissolved Oxygen Saturation",
+                    "itemengabbreviation": "DOS",
+                    "itemvalue": "105.2",
+                    "itemunit": "%",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "氨氮",
+                    "itemengname": "NH3-N",
+                    "itemengabbreviation": "NH3-N",
+                    "itemvalue": "0.03",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "總有機碳",
+                    "itemengname": "Total Organic Carbon",
+                    "itemengabbreviation": "TOC",
+                    "itemvalue": "1.45",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "化學需氧量",
+                    "itemengname": "Chemical Oxygen Demand",
+                    "itemengabbreviation": "COD",
+                    "itemvalue": "5.5",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "溶氧(電極法)",
+                    "itemengname": "Dissolved Oxygen",
+                    "itemengabbreviation": "DO",
+                    "itemvalue": "8.3",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "懸浮固體",
+                    "itemengname": "Suspended Solid",
+                    "itemengabbreviation": "SS",
+                    "itemvalue": "2.9",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "氣溫",
+                    "itemengname": "Temperature",
+                    "itemengabbreviation": "TMP",
+                    "itemvalue": "28.5",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "採樣深度",
+                    "itemengname": "Sampling Depth",
+                    "itemengabbreviation": "SDP",
+                    "itemvalue": "0.5",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "導電度",
+                    "itemengname": "Conductivity",
+                    "itemengabbreviation": "EC",
+                    "itemvalue": "116",
+                    "itemunit": "μmho\/cm25℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "濁度",
+                    "itemengname": "Turbidity",
+                    "itemengabbreviation": "TB",
+                    "itemvalue": "2.4",
+                    "itemunit": "NTU",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "酸鹼值",
+                    "itemengname": "pH",
+                    "itemengabbreviation": "pH",
+                    "itemvalue": "7.73",
+                    "itemunit": "",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "透明度",
+                    "itemengname": "Transparency",
+                    "itemengabbreviation": "SD",
+                    "itemvalue": "1.2",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "水溫",
+                    "itemengname": "Water Temperature",
+                    "itemengabbreviation": "WT",
+                    "itemvalue": "27.2",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "卡爾森指數",
+                    "itemengname": "Carlson Trophic State Index",
+                    "itemengabbreviation": "CTSI",
+                    "itemvalue": "44.82",
+                    "itemunit": "",
+                    "note": ""
+                }
+            ],
+            "20190102": [
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "葉綠素a",
+                    "itemengname": "Chlorophyl-A",
+                    "itemengabbreviation": "Chl-A",
+                    "itemvalue": "2.2",
+                    "itemunit": "μg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "總磷",
+                    "itemengname": "Total-Phosphate",
+                    "itemengabbreviation": "TP",
+                    "itemvalue": "0.031",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "溶氧飽和度",
+                    "itemengname": "Dissolved Oxygen Saturation",
+                    "itemengabbreviation": "DOS",
+                    "itemvalue": "85.6",
+                    "itemunit": "%",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "氨氮",
+                    "itemengname": "NH3-N",
+                    "itemengabbreviation": "NH3-N",
+                    "itemvalue": "0.02",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "總有機碳",
+                    "itemengname": "Total Organic Carbon",
+                    "itemengabbreviation": "TOC",
+                    "itemvalue": "0.92",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "化學需氧量",
+                    "itemengname": "Chemical Oxygen Demand",
+                    "itemengabbreviation": "COD",
+                    "itemvalue": "<4.0",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "溶氧(電極法)",
+                    "itemengname": "Dissolved Oxygen",
+                    "itemengabbreviation": "DO",
+                    "itemvalue": "8.0",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "懸浮固體",
+                    "itemengname": "Suspended Solid",
+                    "itemengabbreviation": "SS",
+                    "itemvalue": "4.0",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "氣溫",
+                    "itemengname": "Temperature",
+                    "itemengabbreviation": "TMP",
+                    "itemvalue": "16.4",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "採樣深度",
+                    "itemengname": "Sampling Depth",
+                    "itemengabbreviation": "SDP",
+                    "itemvalue": "0.5",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "導電度",
+                    "itemengname": "Conductivity",
+                    "itemengabbreviation": "EC",
+                    "itemvalue": "139",
+                    "itemunit": "μmho\/cm25℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "濁度",
+                    "itemengname": "Turbidity",
+                    "itemengabbreviation": "TB",
+                    "itemvalue": "2.2",
+                    "itemunit": "NTU",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "酸鹼值",
+                    "itemengname": "pH",
+                    "itemengabbreviation": "pH",
+                    "itemvalue": "7.08",
+                    "itemunit": "",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "透明度",
+                    "itemengname": "Transparency",
+                    "itemengabbreviation": "SD",
+                    "itemvalue": "1.8",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "水溫",
+                    "itemengname": "Water Temperature",
+                    "itemengabbreviation": "WT",
+                    "itemvalue": "18.7",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "卡爾森指數",
+                    "itemengname": "Carlson Trophic State Index",
+                    "itemengabbreviation": "CTSI",
+                    "itemvalue": "47.84",
+                    "itemunit": "",
+                    "note": ""
+                }
+            ],
+            "20190305": [
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "葉綠素a",
+                    "itemengname": "Chlorophyl-A",
+                    "itemengabbreviation": "Chl-A",
+                    "itemvalue": "7.1",
+                    "itemunit": "μg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "總磷",
+                    "itemengname": "Total-Phosphate",
+                    "itemengabbreviation": "TP",
+                    "itemvalue": "0.017",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "溶氧飽和度",
+                    "itemengname": "Dissolved Oxygen Saturation",
+                    "itemengabbreviation": "DOS",
+                    "itemvalue": "104.5",
+                    "itemunit": "%",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "氨氮",
+                    "itemengname": "NH3-N",
+                    "itemengabbreviation": "NH3-N",
+                    "itemvalue": "<0.01",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "總有機碳",
+                    "itemengname": "Total Organic Carbon",
+                    "itemengabbreviation": "TOC",
+                    "itemvalue": "1.31",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "化學需氧量",
+                    "itemengname": "Chemical Oxygen Demand",
+                    "itemengabbreviation": "COD",
+                    "itemvalue": "<4.0",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "溶氧(電極法)",
+                    "itemengname": "Dissolved Oxygen",
+                    "itemengabbreviation": "DO",
+                    "itemvalue": "9.8",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "懸浮固體",
+                    "itemengname": "Suspended Solid",
+                    "itemengabbreviation": "SS",
+                    "itemvalue": "2.3",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "氣溫",
+                    "itemengname": "Temperature",
+                    "itemengabbreviation": "TMP",
+                    "itemvalue": "17.7",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "採樣深度",
+                    "itemengname": "Sampling Depth",
+                    "itemengabbreviation": "SDP",
+                    "itemvalue": "0.5",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "導電度",
+                    "itemengname": "Conductivity",
+                    "itemengabbreviation": "EC",
+                    "itemvalue": "137",
+                    "itemunit": "μmho\/cm25℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "濁度",
+                    "itemengname": "Turbidity",
+                    "itemengabbreviation": "TB",
+                    "itemvalue": "1.0",
+                    "itemunit": "NTU",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "酸鹼值",
+                    "itemengname": "pH",
+                    "itemengabbreviation": "pH",
+                    "itemvalue": "7.52",
+                    "itemunit": "",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "透明度",
+                    "itemengname": "Transparency",
+                    "itemengabbreviation": "SD",
+                    "itemvalue": "2.0",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "水溫",
+                    "itemengname": "Water Temperature",
+                    "itemengabbreviation": "WT",
+                    "itemvalue": "18.2",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "卡爾森指數",
+                    "itemengname": "Carlson Trophic State Index",
+                    "itemengabbreviation": "CTSI",
+                    "itemvalue": "48.28",
+                    "itemunit": "",
+                    "note": ""
+                }
+            ],
+            "20190410": [
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "葉綠素a",
+                    "itemengname": "Chlorophyl-A",
+                    "itemengabbreviation": "Chl-A",
+                    "itemvalue": "5.4",
+                    "itemunit": "μg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "總磷",
+                    "itemengname": "Total-Phosphate",
+                    "itemengabbreviation": "TP",
+                    "itemvalue": "0.011",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "溶氧飽和度",
+                    "itemengname": "Dissolved Oxygen Saturation",
+                    "itemengabbreviation": "DOS",
+                    "itemvalue": "116.4",
+                    "itemunit": "%",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "氨氮",
+                    "itemengname": "NH3-N",
+                    "itemengabbreviation": "NH3-N",
+                    "itemvalue": "0.02",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "總有機碳",
+                    "itemengname": "Total Organic Carbon",
+                    "itemengabbreviation": "TOC",
+                    "itemvalue": "1.30",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "化學需氧量",
+                    "itemengname": "Chemical Oxygen Demand",
+                    "itemengabbreviation": "COD",
+                    "itemvalue": "7.6",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "溶氧(電極法)",
+                    "itemengname": "Dissolved Oxygen",
+                    "itemengabbreviation": "DO",
+                    "itemvalue": "9.6",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "懸浮固體",
+                    "itemengname": "Suspended Solid",
+                    "itemengabbreviation": "SS",
+                    "itemvalue": "1.7",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "氣溫",
+                    "itemengname": "Temperature",
+                    "itemengabbreviation": "TMP",
+                    "itemvalue": "26.4",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "採樣深度",
+                    "itemengname": "Sampling Depth",
+                    "itemengabbreviation": "SDP",
+                    "itemvalue": "0.5",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "導電度",
+                    "itemengname": "Conductivity",
+                    "itemengabbreviation": "EC",
+                    "itemvalue": "133",
+                    "itemunit": "μmho\/cm25℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "濁度",
+                    "itemengname": "Turbidity",
+                    "itemengabbreviation": "TB",
+                    "itemvalue": "1.3",
+                    "itemunit": "NTU",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "酸鹼值",
+                    "itemengname": "pH",
+                    "itemengabbreviation": "pH",
+                    "itemvalue": "8.45",
+                    "itemunit": "",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "透明度",
+                    "itemengname": "Transparency",
+                    "itemengabbreviation": "SD",
+                    "itemvalue": "2.6",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "水溫",
+                    "itemengname": "Water Temperature",
+                    "itemengabbreviation": "WT",
+                    "itemvalue": "24.1",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "卡爾森指數",
+                    "itemengname": "Carlson Trophic State Index",
+                    "itemengabbreviation": "CTSI",
+                    "itemvalue": "44.03",
+                    "itemunit": "",
+                    "note": ""
+                }
+            ],
+            "20190620": [
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "葉綠素a",
+                    "itemengname": "Chlorophyl-A",
+                    "itemengabbreviation": "Chl-A",
+                    "itemvalue": "2.7",
+                    "itemunit": "μg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "總磷",
+                    "itemengname": "Total-Phosphate",
+                    "itemengabbreviation": "TP",
+                    "itemvalue": "0.011",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "溶氧飽和度",
+                    "itemengname": "Dissolved Oxygen Saturation",
+                    "itemengabbreviation": "DOS",
+                    "itemvalue": "119.1",
+                    "itemunit": "%",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "氨氮",
+                    "itemengname": "NH3-N",
+                    "itemengabbreviation": "NH3-N",
+                    "itemvalue": "0.05",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "總有機碳",
+                    "itemengname": "Total Organic Carbon",
+                    "itemengabbreviation": "TOC",
+                    "itemvalue": "1.69",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "化學需氧量",
+                    "itemengname": "Chemical Oxygen Demand",
+                    "itemengabbreviation": "COD",
+                    "itemvalue": "10.8",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "溶氧(電極法)",
+                    "itemengname": "Dissolved Oxygen",
+                    "itemengabbreviation": "DO",
+                    "itemvalue": "9.0",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "懸浮固體",
+                    "itemengname": "Suspended Solid",
+                    "itemengabbreviation": "SS",
+                    "itemvalue": "2.6",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "氣溫",
+                    "itemengname": "Temperature",
+                    "itemengabbreviation": "TMP",
+                    "itemvalue": "30.1",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "採樣深度",
+                    "itemengname": "Sampling Depth",
+                    "itemengabbreviation": "SDP",
+                    "itemvalue": "0.5",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "導電度",
+                    "itemengname": "Conductivity",
+                    "itemengabbreviation": "EC",
+                    "itemvalue": "119",
+                    "itemunit": "μmho\/cm25℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "濁度",
+                    "itemengname": "Turbidity",
+                    "itemengabbreviation": "TB",
+                    "itemvalue": "2.3",
+                    "itemunit": "NTU",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "酸鹼值",
+                    "itemengname": "pH",
+                    "itemengabbreviation": "pH",
+                    "itemvalue": "8.50",
+                    "itemunit": "",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "透明度",
+                    "itemengname": "Transparency",
+                    "itemengabbreviation": "SD",
+                    "itemvalue": "2.6",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "水溫",
+                    "itemengname": "Water Temperature",
+                    "itemengabbreviation": "WT",
+                    "itemvalue": "29.5",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "卡爾森指數",
+                    "itemengname": "Carlson Trophic State Index",
+                    "itemengabbreviation": "CTSI",
+                    "itemvalue": "41.77",
+                    "itemunit": "",
+                    "note": ""
+                }
+            ],
+            "20190710": [
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "葉綠素a",
+                    "itemengname": "Chlorophyl-A",
+                    "itemengabbreviation": "Chl-A",
+                    "itemvalue": "5.4",
+                    "itemunit": "μg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "總磷",
+                    "itemengname": "Total-Phosphate",
+                    "itemengabbreviation": "TP",
+                    "itemvalue": "0.017",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "溶氧飽和度",
+                    "itemengname": "Dissolved Oxygen Saturation",
+                    "itemengabbreviation": "DOS",
+                    "itemvalue": "118.9",
+                    "itemunit": "%",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "氨氮",
+                    "itemengname": "NH3-N",
+                    "itemengabbreviation": "NH3-N",
+                    "itemvalue": "0.02",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "總有機碳",
+                    "itemengname": "Total Organic Carbon",
+                    "itemengabbreviation": "TOC",
+                    "itemvalue": "1.91",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "化學需氧量",
+                    "itemengname": "Chemical Oxygen Demand",
+                    "itemengabbreviation": "COD",
+                    "itemvalue": "8.0",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "溶氧(電極法)",
+                    "itemengname": "Dissolved Oxygen",
+                    "itemengabbreviation": "DO",
+                    "itemvalue": "8.8",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "懸浮固體",
+                    "itemengname": "Suspended Solid",
+                    "itemengabbreviation": "SS",
+                    "itemvalue": "<1.0",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "氣溫",
+                    "itemengname": "Temperature",
+                    "itemengabbreviation": "TMP",
+                    "itemvalue": "31.9",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "採樣深度",
+                    "itemengname": "Sampling Depth",
+                    "itemengabbreviation": "SDP",
+                    "itemvalue": "0.5",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "導電度",
+                    "itemengname": "Conductivity",
+                    "itemengabbreviation": "EC",
+                    "itemvalue": "144",
+                    "itemunit": "μmho\/cm25℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "濁度",
+                    "itemengname": "Turbidity",
+                    "itemengabbreviation": "TB",
+                    "itemvalue": "1.8",
+                    "itemunit": "NTU",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "酸鹼值",
+                    "itemengname": "pH",
+                    "itemengabbreviation": "pH",
+                    "itemvalue": "8.88",
+                    "itemunit": "",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "透明度",
+                    "itemengname": "Transparency",
+                    "itemengabbreviation": "SD",
+                    "itemvalue": "1.4",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "水溫",
+                    "itemengname": "Water Temperature",
+                    "itemengabbreviation": "WT",
+                    "itemvalue": "30.4",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "卡爾森指數",
+                    "itemengname": "Carlson Trophic State Index",
+                    "itemengabbreviation": "CTSI",
+                    "itemvalue": "49.10",
+                    "itemunit": "",
+                    "note": ""
+                }
+            ],
+            "20190807": [
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "葉綠素a",
+                    "itemengname": "Chlorophyl-A",
+                    "itemengabbreviation": "Chl-A",
+                    "itemvalue": "7.1",
+                    "itemunit": "μg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "總磷",
+                    "itemengname": "Total-Phosphate",
+                    "itemengabbreviation": "TP",
+                    "itemvalue": "0.011",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "溶氧飽和度",
+                    "itemengname": "Dissolved Oxygen Saturation",
+                    "itemengabbreviation": "DOS",
+                    "itemvalue": "104.5",
+                    "itemunit": "%",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "總氮",
+                    "itemengname": "Total Nitrogen",
+                    "itemengabbreviation": "TN",
+                    "itemvalue": "0.38",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "氨氮",
+                    "itemengname": "NH3-N",
+                    "itemengabbreviation": "NH3-N",
+                    "itemvalue": "0.02",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "總有機碳",
+                    "itemengname": "Total Organic Carbon",
+                    "itemengabbreviation": "TOC",
+                    "itemvalue": "2.23",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "化學需氧量",
+                    "itemengname": "Chemical Oxygen Demand",
+                    "itemengabbreviation": "COD",
+                    "itemvalue": "7.1",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "溶氧(電極法)",
+                    "itemengname": "Dissolved Oxygen",
+                    "itemengabbreviation": "DO",
+                    "itemvalue": "7.5",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "懸浮固體",
+                    "itemengname": "Suspended Solid",
+                    "itemengabbreviation": "SS",
+                    "itemvalue": "2.8",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "氣溫",
+                    "itemengname": "Temperature",
+                    "itemengabbreviation": "TMP",
+                    "itemvalue": "32.4",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "採樣深度",
+                    "itemengname": "Sampling Depth",
+                    "itemengabbreviation": "SDP",
+                    "itemvalue": "0.5",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "導電度",
+                    "itemengname": "Conductivity",
+                    "itemengabbreviation": "EC",
+                    "itemvalue": "118",
+                    "itemunit": "μmho\/cm25℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "濁度",
+                    "itemengname": "Turbidity",
+                    "itemengabbreviation": "TB",
+                    "itemvalue": "1.1",
+                    "itemunit": "NTU",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "酸鹼值",
+                    "itemengname": "pH",
+                    "itemengabbreviation": "pH",
+                    "itemvalue": "8.02",
+                    "itemunit": "",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "透明度",
+                    "itemengname": "Transparency",
+                    "itemengabbreviation": "SD",
+                    "itemvalue": "2.2",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "水溫",
+                    "itemengname": "Water Temperature",
+                    "itemengabbreviation": "WT",
+                    "itemvalue": "31.6",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "卡爾森指數",
+                    "itemengname": "Carlson Trophic State Index",
+                    "itemengabbreviation": "CTSI",
+                    "itemvalue": "45.73",
+                    "itemunit": "",
+                    "note": ""
+                }
+            ],
+            "20191206": [
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "葉綠素a",
+                    "itemengname": "Chlorophyl-A",
+                    "itemengabbreviation": "Chl-A",
+                    "itemvalue": "2.6",
+                    "itemunit": "μg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "總磷",
+                    "itemengname": "Total-Phosphate",
+                    "itemengabbreviation": "TP",
+                    "itemvalue": "0.013",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "溶氧飽和度",
+                    "itemengname": "Dissolved Oxygen Saturation",
+                    "itemengabbreviation": "DOS",
+                    "itemvalue": "81.6",
+                    "itemunit": "%",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "氨氮",
+                    "itemengname": "NH3-N",
+                    "itemengabbreviation": "NH3-N",
+                    "itemvalue": "0.09",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "總有機碳",
+                    "itemengname": "Total Organic Carbon",
+                    "itemengabbreviation": "TOC",
+                    "itemvalue": "1.01",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "化學需氧量",
+                    "itemengname": "Chemical Oxygen Demand",
+                    "itemengabbreviation": "COD",
+                    "itemvalue": "6.6",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "溶氧(電極法)",
+                    "itemengname": "Dissolved Oxygen",
+                    "itemengabbreviation": "DO",
+                    "itemvalue": "7.5",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "懸浮固體",
+                    "itemengname": "Suspended Solid",
+                    "itemengabbreviation": "SS",
+                    "itemvalue": "3.5",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "氣溫",
+                    "itemengname": "Temperature",
+                    "itemengabbreviation": "TMP",
+                    "itemvalue": "14.9",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "採樣深度",
+                    "itemengname": "Sampling Depth",
+                    "itemengabbreviation": "SDP",
+                    "itemvalue": "0.5",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "導電度",
+                    "itemengname": "Conductivity",
+                    "itemengabbreviation": "EC",
+                    "itemvalue": "125",
+                    "itemunit": "μmho\/cm25℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "濁度",
+                    "itemengname": "Turbidity",
+                    "itemengabbreviation": "TB",
+                    "itemvalue": "2.1",
+                    "itemunit": "NTU",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "酸鹼值",
+                    "itemengname": "pH",
+                    "itemengabbreviation": "pH",
+                    "itemvalue": "7.03",
+                    "itemunit": "",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "透明度",
+                    "itemengname": "Transparency",
+                    "itemengabbreviation": "SD",
+                    "itemvalue": "1.8",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "水溫",
+                    "itemengname": "Water Temperature",
+                    "itemengabbreviation": "WT",
+                    "itemvalue": "19.2",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5m",
+                    "itemname": "卡爾森指數",
+                    "itemengname": "Carlson Trophic State Index",
+                    "itemengabbreviation": "CTSI",
+                    "itemvalue": "44.21",
+                    "itemunit": "",
+                    "note": ""
+                }
+            ]
+        }
+    }
+}
