@@ -11,8 +11,8 @@ $ git clone
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/j2jjGEH.png)
+![](https://i.imgur.com/n5Ehby3.png)
 > 卡爾森指數係以水中的透明度、葉綠素 a 及總磷等三項水質參數之濃度值進行計算，再以其計算所得之指標值，判定水庫水質之優養程度
 
-![](https://i.imgur.com/icRgldQ.png)
+![](https://i.imgur.com/peAW3DG.png)
 > 監測資料為每季現場採樣，並經實驗室檢測分析及資料品保品管程序
