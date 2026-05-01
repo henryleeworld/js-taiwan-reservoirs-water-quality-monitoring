@@ -1,16 +1,16 @@
 {
-    "2095": {
-        "twd97lon": "121.6222770",
-        "twd97lat": "24.9374720",
+    "2203": {
+        "twd97lon": "121.3020833",
+        "twd97lat": "24.8067222",
         "data": {
-            "2026-01-26 10:45:00": [
+            "2026-02-06 09:31:07": [
                 {
                     "samplelayer": "表水",
                     "sampledepth": "0.5",
                     "itemname": "葉綠素a",
                     "itemengname": "",
                     "itemengabbreviation": "Chl_a",
-                    "itemvalue": "1.6",
+                    "itemvalue": "1.8",
                     "itemunit": "μg\/L",
                     "note": ""
                 },
@@ -20,7 +20,7 @@
                     "itemname": "總磷",
                     "itemengname": "",
                     "itemengabbreviation": "TP",
-                    "itemvalue": "0.007",
+                    "itemvalue": "0.009",
                     "itemunit": "mg\/L",
                     "note": ""
                 },
@@ -40,7 +40,7 @@
                     "itemname": "溶氧飽和度",
                     "itemengname": "",
                     "itemengabbreviation": "DOS",
-                    "itemvalue": "-",
+                    "itemvalue": "98.4",
                     "itemunit": "%",
                     "note": ""
                 },
@@ -80,7 +80,7 @@
                     "itemname": "總氮",
                     "itemengname": "",
                     "itemengabbreviation": "TN",
-                    "itemvalue": "-",
+                    "itemvalue": "0.40",
                     "itemunit": "mg\/L",
                     "note": ""
                 },
@@ -130,7 +130,7 @@
                     "itemname": "氨氮",
                     "itemengname": "",
                     "itemengabbreviation": "NH3_N",
-                    "itemvalue": "<0.01",
+                    "itemvalue": "0.03",
                     "itemunit": "mg\/L",
                     "note": ""
                 },
@@ -140,7 +140,7 @@
                     "itemname": "總有機碳",
                     "itemengname": "",
                     "itemengabbreviation": "TOC",
-                    "itemvalue": "-",
+                    "itemvalue": "0.59",
                     "itemunit": "mg\/L",
                     "note": ""
                 },
@@ -150,7 +150,7 @@
                     "itemname": "化學需氧量",
                     "itemengname": "",
                     "itemengabbreviation": "COD",
-                    "itemvalue": "<3.2",
+                    "itemvalue": "<4.0",
                     "itemunit": "mg\/L",
                     "note": ""
                 },
@@ -160,7 +160,7 @@
                     "itemname": "溶氧(電極法)",
                     "itemengname": "",
                     "itemengabbreviation": "DO",
-                    "itemvalue": "8.6",
+                    "itemvalue": "8.9",
                     "itemunit": "mg\/L",
                     "note": ""
                 },
@@ -170,7 +170,7 @@
                     "itemname": "懸浮固體",
                     "itemengname": "",
                     "itemengabbreviation": "SS",
-                    "itemvalue": "-",
+                    "itemvalue": "1.8",
                     "itemunit": "mg\/L",
                     "note": ""
                 },
@@ -180,7 +180,7 @@
                     "itemname": "氣溫",
                     "itemengname": "",
                     "itemengabbreviation": "TMP",
-                    "itemvalue": "20.1",
+                    "itemvalue": "18.4",
                     "itemunit": "℃",
                     "note": ""
                 },
@@ -200,7 +200,7 @@
                     "itemname": "導電度",
                     "itemengname": "",
                     "itemengabbreviation": "EC",
-                    "itemvalue": "68",
+                    "itemvalue": "218",
                     "itemunit": "μmho\/cm25℃",
                     "note": ""
                 },
@@ -210,7 +210,7 @@
                     "itemname": "濁度",
                     "itemengname": "",
                     "itemengabbreviation": "TB",
-                    "itemvalue": "0.6",
+                    "itemvalue": "1.9",
                     "itemunit": "NTU",
                     "note": ""
                 },
@@ -220,7 +220,7 @@
                     "itemname": "酸鹼值",
                     "itemengname": "",
                     "itemengabbreviation": "pH",
-                    "itemvalue": "7.5",
+                    "itemvalue": "8.14",
                     "itemunit": " ",
                     "note": ""
                 },
@@ -230,7 +230,7 @@
                     "itemname": "透明度",
                     "itemengname": "",
                     "itemengabbreviation": "SD",
-                    "itemvalue": "6.5",
+                    "itemvalue": "2.6",
                     "itemunit": "m",
                     "note": ""
                 },
@@ -240,7 +240,7 @@
                     "itemname": "水溫",
                     "itemengname": "",
                     "itemengabbreviation": "WT",
-                    "itemvalue": "19.7",
+                    "itemvalue": "18.4",
                     "itemunit": "℃",
                     "note": ""
                 },
@@ -250,270 +250,276 @@
                     "itemname": "卡爾森指數",
                     "itemengname": "",
                     "itemengabbreviation": "CTSI",
-                    "itemvalue": "33",
-                    "itemunit": "",
-                    "note": ""
-                }
-            ],
-            "2026-02-02 10:41:00": [
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "葉綠素a",
-                    "itemengname": "",
-                    "itemengabbreviation": "Chl_a",
-                    "itemvalue": "1.6",
-                    "itemunit": "μg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總磷",
-                    "itemengname": "",
-                    "itemengabbreviation": "TP",
-                    "itemvalue": "0.007",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "正磷酸鹽",
-                    "itemengname": "",
-                    "itemengabbreviation": "PO4",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "溶氧飽和度",
-                    "itemengname": "",
-                    "itemengabbreviation": "DOS",
-                    "itemvalue": "-",
-                    "itemunit": "%",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "溶氧(滴定法)",
-                    "itemengname": "",
-                    "itemengabbreviation": "DO2",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總鹼度",
-                    "itemengname": "",
-                    "itemengabbreviation": "TAlk",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總硬度",
-                    "itemengname": "",
-                    "itemengabbreviation": "TH",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "TN",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "亞硝酸鹽氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "NO2_N",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "硝酸鹽氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "NO3_N",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總凱氏氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "TKN",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "有機氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "Norg",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "氨氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "NH3_N",
-                    "itemvalue": "0.0174",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總有機碳",
-                    "itemengname": "",
-                    "itemengabbreviation": "TOC",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "化學需氧量",
-                    "itemengname": "",
-                    "itemengabbreviation": "COD",
-                    "itemvalue": "<3.2",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "溶氧(電極法)",
-                    "itemengname": "",
-                    "itemengabbreviation": "DO",
-                    "itemvalue": "8.8",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "懸浮固體",
-                    "itemengname": "",
-                    "itemengabbreviation": "SS",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "氣溫",
-                    "itemengname": "",
-                    "itemengabbreviation": "TMP",
-                    "itemvalue": "16.0",
-                    "itemunit": "℃",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "採樣深度",
-                    "itemengname": "",
-                    "itemengabbreviation": "SampleDepth",
-                    "itemvalue": "0.5",
-                    "itemunit": "m",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "導電度",
-                    "itemengname": "",
-                    "itemengabbreviation": "EC",
-                    "itemvalue": "66",
-                    "itemunit": "μmho\/cm25℃",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "濁度",
-                    "itemengname": "",
-                    "itemengabbreviation": "TB",
-                    "itemvalue": "1.0",
-                    "itemunit": "NTU",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "酸鹼值",
-                    "itemengname": "",
-                    "itemengabbreviation": "pH",
-                    "itemvalue": "7.4",
-                    "itemunit": " ",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "透明度",
-                    "itemengname": "",
-                    "itemengabbreviation": "SD",
-                    "itemvalue": "7.0",
-                    "itemunit": "m",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "水溫",
-                    "itemengname": "",
-                    "itemengabbreviation": "WT",
-                    "itemvalue": "18.5",
-                    "itemunit": "℃",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "卡爾森指數",
-                    "itemengname": "",
-                    "itemengabbreviation": "CTSI",
-                    "itemvalue": "33",
+                    "itemvalue": "39",
                     "itemunit": "",
                     "note": ""
                 }
             ]
         }
     },
-    "2094": {
-        "twd97lon": "121.6335210",
-        "twd97lat": "24.9267850",
+    "2100": {
+        "twd97lon": "121.2651804",
+        "twd97lat": "24.8108101",
         "data": {
-            "2026-01-26 10:33:00": [
+            "2026-02-06 10:09:04": [
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "葉綠素a",
+                    "itemengname": "",
+                    "itemengabbreviation": "Chl_a",
+                    "itemvalue": "1.2",
+                    "itemunit": "μg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "總磷",
+                    "itemengname": "",
+                    "itemengabbreviation": "TP",
+                    "itemvalue": "0.008",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "正磷酸鹽",
+                    "itemengname": "",
+                    "itemengabbreviation": "PO4",
+                    "itemvalue": "-",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "溶氧飽和度",
+                    "itemengname": "",
+                    "itemengabbreviation": "DOS",
+                    "itemvalue": "100.2",
+                    "itemunit": "%",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "溶氧(滴定法)",
+                    "itemengname": "",
+                    "itemengabbreviation": "DO2",
+                    "itemvalue": "-",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "總鹼度",
+                    "itemengname": "",
+                    "itemengabbreviation": "TAlk",
+                    "itemvalue": "-",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "總硬度",
+                    "itemengname": "",
+                    "itemengabbreviation": "TH",
+                    "itemvalue": "-",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "總氮",
+                    "itemengname": "",
+                    "itemengabbreviation": "TN",
+                    "itemvalue": "0.42",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "亞硝酸鹽氮",
+                    "itemengname": "",
+                    "itemengabbreviation": "NO2_N",
+                    "itemvalue": "-",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "硝酸鹽氮",
+                    "itemengname": "",
+                    "itemengabbreviation": "NO3_N",
+                    "itemvalue": "-",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "總凱氏氮",
+                    "itemengname": "",
+                    "itemengabbreviation": "TKN",
+                    "itemvalue": "-",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "有機氮",
+                    "itemengname": "",
+                    "itemengabbreviation": "Norg",
+                    "itemvalue": "-",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "氨氮",
+                    "itemengname": "",
+                    "itemengabbreviation": "NH3_N",
+                    "itemvalue": "0.02",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "總有機碳",
+                    "itemengname": "",
+                    "itemengabbreviation": "TOC",
+                    "itemvalue": "0.50",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "化學需氧量",
+                    "itemengname": "",
+                    "itemengabbreviation": "COD",
+                    "itemvalue": "<4.0",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "溶氧(電極法)",
+                    "itemengname": "",
+                    "itemengabbreviation": "DO",
+                    "itemvalue": "9.3",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "懸浮固體",
+                    "itemengname": "",
+                    "itemengabbreviation": "SS",
+                    "itemvalue": "1.2",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "氣溫",
+                    "itemengname": "",
+                    "itemengabbreviation": "TMP",
+                    "itemvalue": "18.9",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "採樣深度",
+                    "itemengname": "",
+                    "itemengabbreviation": "SampleDepth",
+                    "itemvalue": "0.5",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "導電度",
+                    "itemengname": "",
+                    "itemengabbreviation": "EC",
+                    "itemvalue": "205",
+                    "itemunit": "μmho\/cm25℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "濁度",
+                    "itemengname": "",
+                    "itemengabbreviation": "TB",
+                    "itemvalue": "1.7",
+                    "itemunit": "NTU",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "酸鹼值",
+                    "itemengname": "",
+                    "itemengabbreviation": "pH",
+                    "itemvalue": "8.05",
+                    "itemunit": " ",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "透明度",
+                    "itemengname": "",
+                    "itemengabbreviation": "SD",
+                    "itemvalue": "3.2",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "水溫",
+                    "itemengname": "",
+                    "itemengabbreviation": "WT",
+                    "itemvalue": "17.9",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "卡爾森指數",
+                    "itemengname": "",
+                    "itemengabbreviation": "CTSI",
+                    "itemvalue": "37",
+                    "itemunit": "",
+                    "note": ""
+                }
+            ]
+        }
+    },
+    "2099": {
+        "twd97lon": "121.2561111",
+        "twd97lat": "24.8044722",
+        "data": {
+            "2026-02-06 10:31:12": [
                 {
                     "samplelayer": "表水",
                     "sampledepth": "0.5",
@@ -530,7 +536,7 @@
                     "itemname": "總磷",
                     "itemengname": "",
                     "itemengabbreviation": "TP",
-                    "itemvalue": "0.007",
+                    "itemvalue": "0.009",
                     "itemunit": "mg\/L",
                     "note": ""
                 },
@@ -550,7 +556,7 @@
                     "itemname": "溶氧飽和度",
                     "itemengname": "",
                     "itemengabbreviation": "DOS",
-                    "itemvalue": "-",
+                    "itemvalue": "101.1",
                     "itemunit": "%",
                     "note": ""
                 },
@@ -590,7 +596,7 @@
                     "itemname": "總氮",
                     "itemengname": "",
                     "itemengabbreviation": "TN",
-                    "itemvalue": "-",
+                    "itemvalue": "0.43",
                     "itemunit": "mg\/L",
                     "note": ""
                 },
@@ -640,7 +646,7 @@
                     "itemname": "氨氮",
                     "itemengname": "",
                     "itemengabbreviation": "NH3_N",
-                    "itemvalue": "<0.01",
+                    "itemvalue": "0.02",
                     "itemunit": "mg\/L",
                     "note": ""
                 },
@@ -650,7 +656,7 @@
                     "itemname": "總有機碳",
                     "itemengname": "",
                     "itemengabbreviation": "TOC",
-                    "itemvalue": "-",
+                    "itemvalue": "0.57",
                     "itemunit": "mg\/L",
                     "note": ""
                 },
@@ -660,7 +666,7 @@
                     "itemname": "化學需氧量",
                     "itemengname": "",
                     "itemengabbreviation": "COD",
-                    "itemvalue": "<3.2",
+                    "itemvalue": "<4.0",
                     "itemunit": "mg\/L",
                     "note": ""
                 },
@@ -670,7 +676,7 @@
                     "itemname": "溶氧(電極法)",
                     "itemengname": "",
                     "itemengabbreviation": "DO",
-                    "itemvalue": "8.6",
+                    "itemvalue": "9.4",
                     "itemunit": "mg\/L",
                     "note": ""
                 },
@@ -680,7 +686,7 @@
                     "itemname": "懸浮固體",
                     "itemengname": "",
                     "itemengabbreviation": "SS",
-                    "itemvalue": "-",
+                    "itemvalue": "<1.0",
                     "itemunit": "mg\/L",
                     "note": ""
                 },
@@ -690,7 +696,7 @@
                     "itemname": "氣溫",
                     "itemengname": "",
                     "itemengabbreviation": "TMP",
-                    "itemvalue": "20.0",
+                    "itemvalue": "18.7",
                     "itemunit": "℃",
                     "note": ""
                 },
@@ -710,7 +716,7 @@
                     "itemname": "導電度",
                     "itemengname": "",
                     "itemengabbreviation": "EC",
-                    "itemvalue": "73",
+                    "itemvalue": "205",
                     "itemunit": "μmho\/cm25℃",
                     "note": ""
                 },
@@ -720,7 +726,7 @@
                     "itemname": "濁度",
                     "itemengname": "",
                     "itemengabbreviation": "TB",
-                    "itemvalue": "0.55",
+                    "itemvalue": "3.2",
                     "itemunit": "NTU",
                     "note": ""
                 },
@@ -730,7 +736,7 @@
                     "itemname": "酸鹼值",
                     "itemengname": "",
                     "itemengabbreviation": "pH",
-                    "itemvalue": "7.4",
+                    "itemvalue": "8.07",
                     "itemunit": " ",
                     "note": ""
                 },
@@ -740,7 +746,7 @@
                     "itemname": "透明度",
                     "itemengname": "",
                     "itemengabbreviation": "SD",
-                    "itemvalue": "6.5",
+                    "itemvalue": "3.2",
                     "itemunit": "m",
                     "note": ""
                 },
@@ -750,7 +756,7 @@
                     "itemname": "水溫",
                     "itemengname": "",
                     "itemengabbreviation": "WT",
-                    "itemvalue": "19.8",
+                    "itemvalue": "17.9",
                     "itemunit": "℃",
                     "note": ""
                 },
@@ -760,522 +766,18 @@
                     "itemname": "卡爾森指數",
                     "itemengname": "",
                     "itemengabbreviation": "CTSI",
-                    "itemvalue": "33",
-                    "itemunit": "",
-                    "note": ""
-                }
-            ],
-            "2026-02-02 10:32:00": [
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "葉綠素a",
-                    "itemengname": "",
-                    "itemengabbreviation": "Chl_a",
-                    "itemvalue": "1.6",
-                    "itemunit": "μg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總磷",
-                    "itemengname": "",
-                    "itemengabbreviation": "TP",
-                    "itemvalue": "0.01",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "正磷酸鹽",
-                    "itemengname": "",
-                    "itemengabbreviation": "PO4",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "溶氧飽和度",
-                    "itemengname": "",
-                    "itemengabbreviation": "DOS",
-                    "itemvalue": "-",
-                    "itemunit": "%",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "溶氧(滴定法)",
-                    "itemengname": "",
-                    "itemengabbreviation": "DO2",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總鹼度",
-                    "itemengname": "",
-                    "itemengabbreviation": "TAlk",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總硬度",
-                    "itemengname": "",
-                    "itemengabbreviation": "TH",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "TN",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "亞硝酸鹽氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "NO2_N",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "硝酸鹽氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "NO3_N",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總凱氏氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "TKN",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "有機氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "Norg",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "氨氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "NH3_N",
-                    "itemvalue": "<0.01",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總有機碳",
-                    "itemengname": "",
-                    "itemengabbreviation": "TOC",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "化學需氧量",
-                    "itemengname": "",
-                    "itemengabbreviation": "COD",
-                    "itemvalue": "<3.2",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "溶氧(電極法)",
-                    "itemengname": "",
-                    "itemengabbreviation": "DO",
-                    "itemvalue": "8.8",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "懸浮固體",
-                    "itemengname": "",
-                    "itemengabbreviation": "SS",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "氣溫",
-                    "itemengname": "",
-                    "itemengabbreviation": "TMP",
-                    "itemvalue": "15.4",
-                    "itemunit": "℃",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "採樣深度",
-                    "itemengname": "",
-                    "itemengabbreviation": "SampleDepth",
-                    "itemvalue": "0.5",
-                    "itemunit": "m",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "導電度",
-                    "itemengname": "",
-                    "itemengabbreviation": "EC",
-                    "itemvalue": "68",
-                    "itemunit": "μmho\/cm25℃",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "濁度",
-                    "itemengname": "",
-                    "itemengabbreviation": "TB",
-                    "itemvalue": "0.65",
-                    "itemunit": "NTU",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "酸鹼值",
-                    "itemengname": "",
-                    "itemengabbreviation": "pH",
-                    "itemvalue": "7.4",
-                    "itemunit": " ",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "透明度",
-                    "itemengname": "",
-                    "itemengabbreviation": "SD",
-                    "itemvalue": "7.0",
-                    "itemunit": "m",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "水溫",
-                    "itemengname": "",
-                    "itemengabbreviation": "WT",
-                    "itemvalue": "18.6",
-                    "itemunit": "℃",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "卡爾森指數",
-                    "itemengname": "",
-                    "itemengabbreviation": "CTSI",
-                    "itemvalue": "35",
+                    "itemvalue": "37",
                     "itemunit": "",
                     "note": ""
                 }
             ]
         }
     },
-    "2093": {
-        "twd97lon": "121.6230260",
-        "twd97lat": "24.9244550",
+    "2098": {
+        "twd97lon": "121.2521389",
+        "twd97lat": "24.8114444",
         "data": {
-            "2026-01-26 10:55:00": [
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "葉綠素a",
-                    "itemengname": "",
-                    "itemengabbreviation": "Chl_a",
-                    "itemvalue": "1.6",
-                    "itemunit": "μg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總磷",
-                    "itemengname": "",
-                    "itemengabbreviation": "TP",
-                    "itemvalue": "0.007",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "正磷酸鹽",
-                    "itemengname": "",
-                    "itemengabbreviation": "PO4",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "溶氧飽和度",
-                    "itemengname": "",
-                    "itemengabbreviation": "DOS",
-                    "itemvalue": "-",
-                    "itemunit": "%",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "溶氧(滴定法)",
-                    "itemengname": "",
-                    "itemengabbreviation": "DO2",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總鹼度",
-                    "itemengname": "",
-                    "itemengabbreviation": "TAlk",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總硬度",
-                    "itemengname": "",
-                    "itemengabbreviation": "TH",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "TN",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "亞硝酸鹽氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "NO2_N",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "硝酸鹽氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "NO3_N",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總凱氏氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "TKN",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "有機氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "Norg",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "氨氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "NH3_N",
-                    "itemvalue": "0.0169",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總有機碳",
-                    "itemengname": "",
-                    "itemengabbreviation": "TOC",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "化學需氧量",
-                    "itemengname": "",
-                    "itemengabbreviation": "COD",
-                    "itemvalue": "<3.2",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "溶氧(電極法)",
-                    "itemengname": "",
-                    "itemengabbreviation": "DO",
-                    "itemvalue": "8.6",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "懸浮固體",
-                    "itemengname": "",
-                    "itemengabbreviation": "SS",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "氣溫",
-                    "itemengname": "",
-                    "itemengabbreviation": "TMP",
-                    "itemvalue": "20.1",
-                    "itemunit": "℃",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "採樣深度",
-                    "itemengname": "",
-                    "itemengabbreviation": "SampleDepth",
-                    "itemvalue": "0.5",
-                    "itemunit": "m",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "導電度",
-                    "itemengname": "",
-                    "itemengabbreviation": "EC",
-                    "itemvalue": "67",
-                    "itemunit": "μmho\/cm25℃",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "濁度",
-                    "itemengname": "",
-                    "itemengabbreviation": "TB",
-                    "itemvalue": "0.6",
-                    "itemunit": "NTU",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "酸鹼值",
-                    "itemengname": "",
-                    "itemengabbreviation": "pH",
-                    "itemvalue": "7.5",
-                    "itemunit": " ",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "透明度",
-                    "itemengname": "",
-                    "itemengabbreviation": "SD",
-                    "itemvalue": "6.5",
-                    "itemunit": "m",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "水溫",
-                    "itemengname": "",
-                    "itemengabbreviation": "WT",
-                    "itemvalue": "19.8",
-                    "itemunit": "℃",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "卡爾森指數",
-                    "itemengname": "",
-                    "itemengabbreviation": "CTSI",
-                    "itemvalue": "33",
-                    "itemunit": "",
-                    "note": ""
-                }
-            ],
-            "2026-02-02 10:53:00": [
+            "2026-02-06 10:50:57": [
                 {
                     "samplelayer": "表水",
                     "sampledepth": "0.5",
@@ -1283,774 +785,6 @@
                     "itemengname": "",
                     "itemengabbreviation": "Chl_a",
                     "itemvalue": "1.4",
-                    "itemunit": "μg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總磷",
-                    "itemengname": "",
-                    "itemengabbreviation": "TP",
-                    "itemvalue": "0.007",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "正磷酸鹽",
-                    "itemengname": "",
-                    "itemengabbreviation": "PO4",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "溶氧飽和度",
-                    "itemengname": "",
-                    "itemengabbreviation": "DOS",
-                    "itemvalue": "-",
-                    "itemunit": "%",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "溶氧(滴定法)",
-                    "itemengname": "",
-                    "itemengabbreviation": "DO2",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總鹼度",
-                    "itemengname": "",
-                    "itemengabbreviation": "TAlk",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總硬度",
-                    "itemengname": "",
-                    "itemengabbreviation": "TH",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "TN",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "亞硝酸鹽氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "NO2_N",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "硝酸鹽氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "NO3_N",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總凱氏氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "TKN",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "有機氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "Norg",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "氨氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "NH3_N",
-                    "itemvalue": "0.0165",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總有機碳",
-                    "itemengname": "",
-                    "itemengabbreviation": "TOC",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "化學需氧量",
-                    "itemengname": "",
-                    "itemengabbreviation": "COD",
-                    "itemvalue": "<3.2",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "溶氧(電極法)",
-                    "itemengname": "",
-                    "itemengabbreviation": "DO",
-                    "itemvalue": "8.8",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "懸浮固體",
-                    "itemengname": "",
-                    "itemengabbreviation": "SS",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "氣溫",
-                    "itemengname": "",
-                    "itemengabbreviation": "TMP",
-                    "itemvalue": "16.2",
-                    "itemunit": "℃",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "採樣深度",
-                    "itemengname": "",
-                    "itemengabbreviation": "SampleDepth",
-                    "itemvalue": "0.5",
-                    "itemunit": "m",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "導電度",
-                    "itemengname": "",
-                    "itemengabbreviation": "EC",
-                    "itemvalue": "66",
-                    "itemunit": "μmho\/cm25℃",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "濁度",
-                    "itemengname": "",
-                    "itemengabbreviation": "TB",
-                    "itemvalue": "0.85",
-                    "itemunit": "NTU",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "酸鹼值",
-                    "itemengname": "",
-                    "itemengabbreviation": "pH",
-                    "itemvalue": "7.5",
-                    "itemunit": " ",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "透明度",
-                    "itemengname": "",
-                    "itemengabbreviation": "SD",
-                    "itemvalue": "7.5",
-                    "itemunit": "m",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "水溫",
-                    "itemengname": "",
-                    "itemengabbreviation": "WT",
-                    "itemvalue": "18.7",
-                    "itemunit": "℃",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "卡爾森指數",
-                    "itemengname": "",
-                    "itemengabbreviation": "CTSI",
-                    "itemvalue": "32",
-                    "itemunit": "",
-                    "note": ""
-                }
-            ]
-        }
-    },
-    "2092": {
-        "twd97lon": "121.6192840",
-        "twd97lat": "24.9076210",
-        "data": {
-            "2026-01-26 11:03:00": [
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "葉綠素a",
-                    "itemengname": "",
-                    "itemengabbreviation": "Chl_a",
-                    "itemvalue": "1.9",
-                    "itemunit": "μg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總磷",
-                    "itemengname": "",
-                    "itemengabbreviation": "TP",
-                    "itemvalue": "0.01",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "正磷酸鹽",
-                    "itemengname": "",
-                    "itemengabbreviation": "PO4",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "溶氧飽和度",
-                    "itemengname": "",
-                    "itemengabbreviation": "DOS",
-                    "itemvalue": "-",
-                    "itemunit": "%",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "溶氧(滴定法)",
-                    "itemengname": "",
-                    "itemengabbreviation": "DO2",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總鹼度",
-                    "itemengname": "",
-                    "itemengabbreviation": "TAlk",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總硬度",
-                    "itemengname": "",
-                    "itemengabbreviation": "TH",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "TN",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "亞硝酸鹽氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "NO2_N",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "硝酸鹽氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "NO3_N",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總凱氏氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "TKN",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "有機氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "Norg",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "氨氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "NH3_N",
-                    "itemvalue": "<0.01",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總有機碳",
-                    "itemengname": "",
-                    "itemengabbreviation": "TOC",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "化學需氧量",
-                    "itemengname": "",
-                    "itemengabbreviation": "COD",
-                    "itemvalue": "<3.2",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "溶氧(電極法)",
-                    "itemengname": "",
-                    "itemengabbreviation": "DO",
-                    "itemvalue": "8.6",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "懸浮固體",
-                    "itemengname": "",
-                    "itemengabbreviation": "SS",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "氣溫",
-                    "itemengname": "",
-                    "itemengabbreviation": "TMP",
-                    "itemvalue": "20.1",
-                    "itemunit": "℃",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "採樣深度",
-                    "itemengname": "",
-                    "itemengabbreviation": "SampleDepth",
-                    "itemvalue": "0.5",
-                    "itemunit": "m",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "導電度",
-                    "itemengname": "",
-                    "itemengabbreviation": "EC",
-                    "itemvalue": "65",
-                    "itemunit": "μmho\/cm25℃",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "濁度",
-                    "itemengname": "",
-                    "itemengabbreviation": "TB",
-                    "itemvalue": "0.6",
-                    "itemunit": "NTU",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "酸鹼值",
-                    "itemengname": "",
-                    "itemengabbreviation": "pH",
-                    "itemvalue": "7.5",
-                    "itemunit": " ",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "透明度",
-                    "itemengname": "",
-                    "itemengabbreviation": "SD",
-                    "itemvalue": "6.5",
-                    "itemunit": "m",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "水溫",
-                    "itemengname": "",
-                    "itemengabbreviation": "WT",
-                    "itemvalue": "19.8",
-                    "itemunit": "℃",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "卡爾森指數",
-                    "itemengname": "",
-                    "itemengabbreviation": "CTSI",
-                    "itemvalue": "36",
-                    "itemunit": "",
-                    "note": ""
-                }
-            ],
-            "2026-02-02 11:06:00": [
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "葉綠素a",
-                    "itemengname": "",
-                    "itemengabbreviation": "Chl_a",
-                    "itemvalue": "1.7",
-                    "itemunit": "μg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總磷",
-                    "itemengname": "",
-                    "itemengabbreviation": "TP",
-                    "itemvalue": "0.01",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "正磷酸鹽",
-                    "itemengname": "",
-                    "itemengabbreviation": "PO4",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "溶氧飽和度",
-                    "itemengname": "",
-                    "itemengabbreviation": "DOS",
-                    "itemvalue": "-",
-                    "itemunit": "%",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "溶氧(滴定法)",
-                    "itemengname": "",
-                    "itemengabbreviation": "DO2",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總鹼度",
-                    "itemengname": "",
-                    "itemengabbreviation": "TAlk",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總硬度",
-                    "itemengname": "",
-                    "itemengabbreviation": "TH",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "TN",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "亞硝酸鹽氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "NO2_N",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "硝酸鹽氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "NO3_N",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總凱氏氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "TKN",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "有機氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "Norg",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "氨氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "NH3_N",
-                    "itemvalue": "<0.01",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總有機碳",
-                    "itemengname": "",
-                    "itemengabbreviation": "TOC",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "化學需氧量",
-                    "itemengname": "",
-                    "itemengabbreviation": "COD",
-                    "itemvalue": "<3.2",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "溶氧(電極法)",
-                    "itemengname": "",
-                    "itemengabbreviation": "DO",
-                    "itemvalue": "8.8",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "懸浮固體",
-                    "itemengname": "",
-                    "itemengabbreviation": "SS",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "氣溫",
-                    "itemengname": "",
-                    "itemengabbreviation": "TMP",
-                    "itemvalue": "16.4",
-                    "itemunit": "℃",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "採樣深度",
-                    "itemengname": "",
-                    "itemengabbreviation": "SampleDepth",
-                    "itemvalue": "0.5",
-                    "itemunit": "m",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "導電度",
-                    "itemengname": "",
-                    "itemengabbreviation": "EC",
-                    "itemvalue": "66",
-                    "itemunit": "μmho\/cm25℃",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "濁度",
-                    "itemengname": "",
-                    "itemengabbreviation": "TB",
-                    "itemvalue": "0.85",
-                    "itemunit": "NTU",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "酸鹼值",
-                    "itemengname": "",
-                    "itemengabbreviation": "pH",
-                    "itemvalue": "7.3",
-                    "itemunit": " ",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "透明度",
-                    "itemengname": "",
-                    "itemengabbreviation": "SD",
-                    "itemvalue": "8.0",
-                    "itemunit": "m",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "水溫",
-                    "itemengname": "",
-                    "itemengabbreviation": "WT",
-                    "itemvalue": "18.7",
-                    "itemunit": "℃",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "卡爾森指數",
-                    "itemengname": "",
-                    "itemengabbreviation": "CTSI",
-                    "itemvalue": "34",
-                    "itemunit": "",
-                    "note": ""
-                }
-            ]
-        }
-    },
-    "2091": {
-        "twd97lon": "121.5972510",
-        "twd97lat": "24.9038220",
-        "data": {
-            "2026-01-26 11:12:00": [
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "葉綠素a",
-                    "itemengname": "",
-                    "itemengabbreviation": "Chl_a",
-                    "itemvalue": "1.5",
                     "itemunit": "μg\/L",
                     "note": ""
                 },
@@ -2080,7 +814,7 @@
                     "itemname": "溶氧飽和度",
                     "itemengname": "",
                     "itemengabbreviation": "DOS",
-                    "itemvalue": "-",
+                    "itemvalue": "98.6",
                     "itemunit": "%",
                     "note": ""
                 },
@@ -2120,7 +854,7 @@
                     "itemname": "總氮",
                     "itemengname": "",
                     "itemengabbreviation": "TN",
-                    "itemvalue": "-",
+                    "itemvalue": "0.41",
                     "itemunit": "mg\/L",
                     "note": ""
                 },
@@ -2170,7 +904,7 @@
                     "itemname": "氨氮",
                     "itemengname": "",
                     "itemengabbreviation": "NH3_N",
-                    "itemvalue": "<0.01",
+                    "itemvalue": "0.03",
                     "itemunit": "mg\/L",
                     "note": ""
                 },
@@ -2180,7 +914,7 @@
                     "itemname": "總有機碳",
                     "itemengname": "",
                     "itemengabbreviation": "TOC",
-                    "itemvalue": "-",
+                    "itemvalue": "0.47",
                     "itemunit": "mg\/L",
                     "note": ""
                 },
@@ -2190,7 +924,7 @@
                     "itemname": "化學需氧量",
                     "itemengname": "",
                     "itemengabbreviation": "COD",
-                    "itemvalue": "<3.2",
+                    "itemvalue": "<4.0",
                     "itemunit": "mg\/L",
                     "note": ""
                 },
@@ -2200,7 +934,7 @@
                     "itemname": "溶氧(電極法)",
                     "itemengname": "",
                     "itemengabbreviation": "DO",
-                    "itemvalue": "8.6",
+                    "itemvalue": "9.1",
                     "itemunit": "mg\/L",
                     "note": ""
                 },
@@ -2210,7 +944,7 @@
                     "itemname": "懸浮固體",
                     "itemengname": "",
                     "itemengabbreviation": "SS",
-                    "itemvalue": "-",
+                    "itemvalue": "<1.0",
                     "itemunit": "mg\/L",
                     "note": ""
                 },
@@ -2220,318 +954,6 @@
                     "itemname": "氣溫",
                     "itemengname": "",
                     "itemengabbreviation": "TMP",
-                    "itemvalue": "20.1",
-                    "itemunit": "℃",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "採樣深度",
-                    "itemengname": "",
-                    "itemengabbreviation": "SampleDepth",
-                    "itemvalue": "0.5",
-                    "itemunit": "m",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "導電度",
-                    "itemengname": "",
-                    "itemengabbreviation": "EC",
-                    "itemvalue": "67",
-                    "itemunit": "μmho\/cm25℃",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "濁度",
-                    "itemengname": "",
-                    "itemengabbreviation": "TB",
-                    "itemvalue": "0.55",
-                    "itemunit": "NTU",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "酸鹼值",
-                    "itemengname": "",
-                    "itemengabbreviation": "pH",
-                    "itemvalue": "7.5",
-                    "itemunit": " ",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "透明度",
-                    "itemengname": "",
-                    "itemengabbreviation": "SD",
-                    "itemvalue": "6.5",
-                    "itemunit": "m",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "水溫",
-                    "itemengname": "",
-                    "itemengabbreviation": "WT",
-                    "itemvalue": "19.9",
-                    "itemunit": "℃",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "卡爾森指數",
-                    "itemengname": "",
-                    "itemengabbreviation": "CTSI",
-                    "itemvalue": "37",
-                    "itemunit": "",
-                    "note": ""
-                }
-            ],
-            "2026-02-02 11:16:00": [
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "葉綠素a",
-                    "itemengname": "",
-                    "itemengabbreviation": "Chl_a",
-                    "itemvalue": "1.4",
-                    "itemunit": "μg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總磷",
-                    "itemengname": "",
-                    "itemengabbreviation": "TP",
-                    "itemvalue": "0.014",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "正磷酸鹽",
-                    "itemengname": "",
-                    "itemengabbreviation": "PO4",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "溶氧飽和度",
-                    "itemengname": "",
-                    "itemengabbreviation": "DOS",
-                    "itemvalue": "-",
-                    "itemunit": "%",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "溶氧(滴定法)",
-                    "itemengname": "",
-                    "itemengabbreviation": "DO2",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總鹼度",
-                    "itemengname": "",
-                    "itemengabbreviation": "TAlk",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總硬度",
-                    "itemengname": "",
-                    "itemengabbreviation": "TH",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "TN",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "亞硝酸鹽氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "NO2_N",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "硝酸鹽氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "NO3_N",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總凱氏氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "TKN",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "有機氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "Norg",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "氨氮",
-                    "itemengname": "",
-                    "itemengabbreviation": "NH3_N",
-                    "itemvalue": "0.0121",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "總有機碳",
-                    "itemengname": "",
-                    "itemengabbreviation": "TOC",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "化學需氧量",
-                    "itemengname": "",
-                    "itemengabbreviation": "COD",
-                    "itemvalue": "<3.2",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "溶氧(電極法)",
-                    "itemengname": "",
-                    "itemengabbreviation": "DO",
-                    "itemvalue": "8.7",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "懸浮固體",
-                    "itemengname": "",
-                    "itemengabbreviation": "SS",
-                    "itemvalue": "-",
-                    "itemunit": "mg\/L",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "氣溫",
-                    "itemengname": "",
-                    "itemengabbreviation": "TMP",
-                    "itemvalue": "16.6",
-                    "itemunit": "℃",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "採樣深度",
-                    "itemengname": "",
-                    "itemengabbreviation": "SampleDepth",
-                    "itemvalue": "0.5",
-                    "itemunit": "m",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "導電度",
-                    "itemengname": "",
-                    "itemengabbreviation": "EC",
-                    "itemvalue": "65",
-                    "itemunit": "μmho\/cm25℃",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "濁度",
-                    "itemengname": "",
-                    "itemengabbreviation": "TB",
-                    "itemvalue": "0.7",
-                    "itemunit": "NTU",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "酸鹼值",
-                    "itemengname": "",
-                    "itemengabbreviation": "pH",
-                    "itemvalue": "7.5",
-                    "itemunit": " ",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "透明度",
-                    "itemengname": "",
-                    "itemengabbreviation": "SD",
-                    "itemvalue": "7.5",
-                    "itemunit": "m",
-                    "note": ""
-                },
-                {
-                    "samplelayer": "表水",
-                    "sampledepth": "0.5",
-                    "itemname": "水溫",
-                    "itemengname": "",
-                    "itemengabbreviation": "WT",
                     "itemvalue": "18.7",
                     "itemunit": "℃",
                     "note": ""
@@ -2539,21 +961,81 @@
                 {
                     "samplelayer": "表水",
                     "sampledepth": "0.5",
+                    "itemname": "採樣深度",
+                    "itemengname": "",
+                    "itemengabbreviation": "SampleDepth",
+                    "itemvalue": "0.5",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "導電度",
+                    "itemengname": "",
+                    "itemengabbreviation": "EC",
+                    "itemvalue": "205",
+                    "itemunit": "μmho\/cm25℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "濁度",
+                    "itemengname": "",
+                    "itemengabbreviation": "TB",
+                    "itemvalue": "2.1",
+                    "itemunit": "NTU",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "酸鹼值",
+                    "itemengname": "",
+                    "itemengabbreviation": "pH",
+                    "itemvalue": "8.10",
+                    "itemunit": " ",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "透明度",
+                    "itemengname": "",
+                    "itemengabbreviation": "SD",
+                    "itemvalue": "3.4",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "水溫",
+                    "itemengname": "",
+                    "itemengabbreviation": "WT",
+                    "itemvalue": "18.0",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
                     "itemname": "卡爾森指數",
                     "itemengname": "",
                     "itemengabbreviation": "CTSI",
-                    "itemvalue": "36",
+                    "itemvalue": "40",
                     "itemunit": "",
                     "note": ""
                 }
             ]
         }
     },
-    "2090": {
-        "twd97lon": "121.5836770",
-        "twd97lat": "24.9108769",
+    "2097": {
+        "twd97lon": "121.2456111",
+        "twd97lat": "24.8101944",
         "data": {
-            "2026-01-26 11:30:00": [
+            "2026-02-06 11:19:55": [
                 {
                     "samplelayer": "表水",
                     "sampledepth": "0.5",
@@ -2570,7 +1052,7 @@
                     "itemname": "總磷",
                     "itemengname": "",
                     "itemengabbreviation": "TP",
-                    "itemvalue": "0.013",
+                    "itemvalue": "0.011",
                     "itemunit": "mg\/L",
                     "note": ""
                 },
@@ -2590,7 +1072,7 @@
                     "itemname": "溶氧飽和度",
                     "itemengname": "",
                     "itemengabbreviation": "DOS",
-                    "itemvalue": "-",
+                    "itemvalue": "99.9",
                     "itemunit": "%",
                     "note": ""
                 },
@@ -2630,7 +1112,7 @@
                     "itemname": "總氮",
                     "itemengname": "",
                     "itemengabbreviation": "TN",
-                    "itemvalue": "-",
+                    "itemvalue": "0.42",
                     "itemunit": "mg\/L",
                     "note": ""
                 },
@@ -2680,7 +1162,7 @@
                     "itemname": "氨氮",
                     "itemengname": "",
                     "itemengabbreviation": "NH3_N",
-                    "itemvalue": "<0.01",
+                    "itemvalue": "0.04",
                     "itemunit": "mg\/L",
                     "note": ""
                 },
@@ -2690,7 +1172,7 @@
                     "itemname": "總有機碳",
                     "itemengname": "",
                     "itemengabbreviation": "TOC",
-                    "itemvalue": "-",
+                    "itemvalue": "0.55",
                     "itemunit": "mg\/L",
                     "note": ""
                 },
@@ -2700,7 +1182,7 @@
                     "itemname": "化學需氧量",
                     "itemengname": "",
                     "itemengabbreviation": "COD",
-                    "itemvalue": "<3.2",
+                    "itemvalue": "<4.0",
                     "itemunit": "mg\/L",
                     "note": ""
                 },
@@ -2710,7 +1192,7 @@
                     "itemname": "溶氧(電極法)",
                     "itemengname": "",
                     "itemengabbreviation": "DO",
-                    "itemvalue": "8.6",
+                    "itemvalue": "9.2",
                     "itemunit": "mg\/L",
                     "note": ""
                 },
@@ -2720,7 +1202,7 @@
                     "itemname": "懸浮固體",
                     "itemengname": "",
                     "itemengabbreviation": "SS",
-                    "itemvalue": "-",
+                    "itemvalue": "1.3",
                     "itemunit": "mg\/L",
                     "note": ""
                 },
@@ -2730,7 +1212,7 @@
                     "itemname": "氣溫",
                     "itemengname": "",
                     "itemengabbreviation": "TMP",
-                    "itemvalue": "20.2",
+                    "itemvalue": "18.6",
                     "itemunit": "℃",
                     "note": ""
                 },
@@ -2750,7 +1232,7 @@
                     "itemname": "導電度",
                     "itemengname": "",
                     "itemengabbreviation": "EC",
-                    "itemvalue": "66",
+                    "itemvalue": "205",
                     "itemunit": "μmho\/cm25℃",
                     "note": ""
                 },
@@ -2760,7 +1242,7 @@
                     "itemname": "濁度",
                     "itemengname": "",
                     "itemengabbreviation": "TB",
-                    "itemvalue": "0.55",
+                    "itemvalue": "1.6",
                     "itemunit": "NTU",
                     "note": ""
                 },
@@ -2770,7 +1252,7 @@
                     "itemname": "酸鹼值",
                     "itemengname": "",
                     "itemengabbreviation": "pH",
-                    "itemvalue": "7.5",
+                    "itemvalue": "8.11",
                     "itemunit": " ",
                     "note": ""
                 },
@@ -2780,7 +1262,7 @@
                     "itemname": "透明度",
                     "itemengname": "",
                     "itemengabbreviation": "SD",
-                    "itemvalue": "7.0",
+                    "itemvalue": "3.8",
                     "itemunit": "m",
                     "note": ""
                 },
@@ -2790,7 +1272,7 @@
                     "itemname": "水溫",
                     "itemengname": "",
                     "itemengabbreviation": "WT",
-                    "itemvalue": "19.8",
+                    "itemvalue": "18.3",
                     "itemunit": "℃",
                     "note": ""
                 },
@@ -2800,7 +1282,265 @@
                     "itemname": "卡爾森指數",
                     "itemengname": "",
                     "itemengabbreviation": "CTSI",
-                    "itemvalue": "36",
+                    "itemvalue": "38",
+                    "itemunit": "",
+                    "note": ""
+                }
+            ]
+        }
+    },
+    "2096": {
+        "twd97lon": "121.2421667",
+        "twd97lat": "24.8030000",
+        "data": {
+            "2026-02-06 11:33:50": [
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "葉綠素a",
+                    "itemengname": "",
+                    "itemengabbreviation": "Chl_a",
+                    "itemvalue": "2.2",
+                    "itemunit": "μg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "總磷",
+                    "itemengname": "",
+                    "itemengabbreviation": "TP",
+                    "itemvalue": "0.011",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "正磷酸鹽",
+                    "itemengname": "",
+                    "itemengabbreviation": "PO4",
+                    "itemvalue": "-",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "溶氧飽和度",
+                    "itemengname": "",
+                    "itemengabbreviation": "DOS",
+                    "itemvalue": "101.4",
+                    "itemunit": "%",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "溶氧(滴定法)",
+                    "itemengname": "",
+                    "itemengabbreviation": "DO2",
+                    "itemvalue": "-",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "總鹼度",
+                    "itemengname": "",
+                    "itemengabbreviation": "TAlk",
+                    "itemvalue": "-",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "總硬度",
+                    "itemengname": "",
+                    "itemengabbreviation": "TH",
+                    "itemvalue": "-",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "總氮",
+                    "itemengname": "",
+                    "itemengabbreviation": "TN",
+                    "itemvalue": "0.41",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "亞硝酸鹽氮",
+                    "itemengname": "",
+                    "itemengabbreviation": "NO2_N",
+                    "itemvalue": "-",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "硝酸鹽氮",
+                    "itemengname": "",
+                    "itemengabbreviation": "NO3_N",
+                    "itemvalue": "-",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "總凱氏氮",
+                    "itemengname": "",
+                    "itemengabbreviation": "TKN",
+                    "itemvalue": "-",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "有機氮",
+                    "itemengname": "",
+                    "itemengabbreviation": "Norg",
+                    "itemvalue": "-",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "氨氮",
+                    "itemengname": "",
+                    "itemengabbreviation": "NH3_N",
+                    "itemvalue": "0.04",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "總有機碳",
+                    "itemengname": "",
+                    "itemengabbreviation": "TOC",
+                    "itemvalue": "0.66",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "化學需氧量",
+                    "itemengname": "",
+                    "itemengabbreviation": "COD",
+                    "itemvalue": "<4.0",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "溶氧(電極法)",
+                    "itemengname": "",
+                    "itemengabbreviation": "DO",
+                    "itemvalue": "9.3",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "懸浮固體",
+                    "itemengname": "",
+                    "itemengabbreviation": "SS",
+                    "itemvalue": "<1.0",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "氣溫",
+                    "itemengname": "",
+                    "itemengabbreviation": "TMP",
+                    "itemvalue": "18.3",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "採樣深度",
+                    "itemengname": "",
+                    "itemengabbreviation": "SampleDepth",
+                    "itemvalue": "0.5",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "導電度",
+                    "itemengname": "",
+                    "itemengabbreviation": "EC",
+                    "itemvalue": "207",
+                    "itemunit": "μmho\/cm25℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "濁度",
+                    "itemengname": "",
+                    "itemengabbreviation": "TB",
+                    "itemvalue": "1.6",
+                    "itemunit": "NTU",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "酸鹼值",
+                    "itemengname": "",
+                    "itemengabbreviation": "pH",
+                    "itemvalue": "8.03",
+                    "itemunit": " ",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "透明度",
+                    "itemengname": "",
+                    "itemengabbreviation": "SD",
+                    "itemvalue": "2.2",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "水溫",
+                    "itemengname": "",
+                    "itemengabbreviation": "WT",
+                    "itemvalue": "18.2",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "卡爾森指數",
+                    "itemengname": "",
+                    "itemengabbreviation": "CTSI",
+                    "itemvalue": "42",
                     "itemunit": "",
                     "note": ""
                 }
