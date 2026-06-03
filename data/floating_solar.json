@@ -1,0 +1,25 @@
+{
+    "reservoirs": [
+        {
+            "name": "烏山頭"
+        },
+        {
+            "name": "阿公店"
+        },
+        {
+            "name": "鳳山"
+        },
+        {
+            "name": "金湖"
+        },
+        {
+            "name": "內埔子"
+        },
+        {
+            "name": "鹽水埤"
+        }
+    ],
+    "source": "https:\/\/www.wra.gov.tw\/cp.aspx?n=45013",
+    "last_updated": "2026-06-01",
+    "description": "設有浮動式太陽光電之水庫清單"
+}

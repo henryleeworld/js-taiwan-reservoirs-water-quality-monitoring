@@ -17,31 +17,111 @@
         <div class="header">
             <h1>台灣水庫水質監測</h1>
             <p>衡量水庫優養化狀態採用卡爾森指數（CTSI）</p>
-        </div>
-        <div class="controls">
-            <div class="year-selector">
-                <label for="yearSelect"><strong>選擇年份：</strong></label>
-                <select id="yearSelect">
-                    <option value="2025" selected>2025</option>
-                    <option value="2024">2024</option>
-                    <option value="2023">2023</option>
-                    <option value="2022">2022</option>
-                    <option value="2021">2021</option>
-                    <option value="2020">2020</option>
-                    <option value="2019">2019</option>
-                </select>
-            </div>
-            <div class="search-box">
-                <input type="text" id="searchInput" placeholder="搜尋水庫名稱..." />
-            </div>
-            <div>
-                <a href="https://wq.moenv.gov.tw/EWQP/zh/EnvWaterMonitoring/Reservoir.aspx" target="_blank" class="btn btn-sm btn-primary">資料來源</a>
+            <div class="main-tabs">
+                <button class="main-tab active" data-tab="realtime">即時水情</button>
+                <button class="main-tab" data-tab="quality">水質監測</button>
+                <button class="main-tab" data-tab="supply">供水範圍</button>
             </div>
         </div>
-        <div class="container-fluid">
-            <div class="reservoirs-grid" id="reservoirsGrid"></div>
+        <div class="main-content active" id="content-realtime">
+            <div class="rt-summary">
+                <div class="rt-summary-item">
+                    <span class="rt-dot" style="background: #1565c0"></span> 充沛（&gt;80%）
+                </div>
+                <div class="rt-summary-item">
+                    <span class="rt-dot" style="background: #2e7d32"></span> 正常（50-80%）
+                </div>
+                <div class="rt-summary-item">
+                    <span class="rt-dot" style="background: #f57f17"></span> 偏低（20-50%）
+                </div>
+                <div class="rt-summary-item">
+                    <span class="rt-dot" style="background: #c62828"></span> 嚴重不足（&lt;20%）
+                </div>
+                <div class="rt-summary-item" id="rtUpdateTime" style="color: #999; font-size: 12px"></div>
+            </div>
+            <div style="position: relative">
+                <div id="realtimeMap"></div>
+                <button id="rtOverviewBtn" class="rt-overview-btn" style="display: none" onclick="rtZoomOverview()">
+                    &#8592; 全部水庫
+                </button>
+            </div>
+            <div class="rt-controls">
+                <div class="search-box">
+                    <input type="text" id="rtSearchInput" placeholder="搜尋水庫名稱..." />
+                </div>
+                <div class="rt-sort">
+                    <select id="rtSortSelect">
+                        <option value="percentage-asc">蓄水率 低→高</option>
+                        <option value="percentage-desc">蓄水率 高→低</option>
+                        <option value="name">名稱排序</option>
+                        <option value="capacity-desc">總容量 大→小</option>
+                        <option value="nearby">距離最近</option>
+                    </select>
+                </div>
+                <div>
+                    <button id="rtGpsBtn" class="btn btn-sm btn-outline-primary" onclick="getUserLocation()">
+                        &#x1F4CD; 定位附近
+                    </button>
+                    <a href="https://fhy.wra.gov.tw/fhyv2/monitor/reservoir" target="_blank" class="btn btn-sm btn-primary">資料來源</a>
+                </div>
+            </div>
+            <div class="rt-grid" id="rtGrid"></div>
         </div>
-        <div id="detailModal" class="modal">
+        <div class="main-content" id="content-quality">
+            <div class="wq-controls">
+                <div class="year-selector">
+                    <label for="yearSelect"><strong>選擇年份：</strong></label>
+                    <select id="yearSelect">
+                        <option value="2025" selected>2025</option>
+                        <option value="2024">2024</option>
+                        <option value="2023">2023</option>
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                    </select>
+                </div>
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="搜尋水庫名稱..." />
+                </div>
+                <div>
+                    <a href="https://wq.moenv.gov.tw/EWQP/zh/EnvWaterMonitoring/Reservoir.aspx" target="_blank" class="btn btn-sm btn-primary">資料來源</a>
+                </div>
+            </div>
+            <div class="wq-legend" id="wqLegend">
+                <h6 style="margin: 0 0 10px 0; color: #667eea; font-size: 14px; font-weight: bold">卡爾森指數圖例</h6>
+                <div style="font-size: 12px; line-height: 1.8">
+                    <div style="margin: 5px 0">
+                        <span style="display: inline-block; width: 16px; height: 16px; background: #3498db; border-radius: 50%; margin-right: 8px; vertical-align: middle;"></span>
+                        <span>&lt;40 貧養</span>
+                    </div>
+                    <div style="margin: 5px 0">
+                        <span style="display: inline-block; width: 16px; height: 16px; background: #27ae60; border-radius: 50%; margin-right: 8px; vertical-align: middle;"></span>
+                        <span>40-50 普養</span>
+                    </div>
+                    <div style="margin: 5px 0">
+                        <span style="display: inline-block; width: 16px; height: 16px; background: #f39c12; border-radius: 50%; margin-right: 8px; vertical-align: middle;"></span>
+                        <span>&gt;50 優養</span>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="reservoirs-grid" id="reservoirsGrid"></div>
+            </div>
+        </div>
+        <div class="main-content" id="content-supply">
+            <div class="supply-controls">
+                <div>
+                    <label for="supplyReservoirSelect"><strong>選擇水庫：</strong></label>
+                    <select id="supplyReservoirSelect">
+                        <option value="">-- 請選擇水庫 --</option>
+                    </select>
+                </div>
+                <div id="supplyPlants" class="supply-plants"></div>
+            </div>
+            <div id="supplyMap" style="width: 100%; height: 600px"></div>
+        </div>
+        <div id="detailModal" class="modal-overlay">
             <div class="modal-content">
                 <button class="modal-close" id="modalClose">&times;</button>
                 <div id="modalBody"></div>
@@ -51,25 +131,9 @@
             <div class="loading-spinner"></div>
             <div>載入中...</div>
         </div>
-        <div style="position: fixed; top: 80px; right: 20px; background: rgba(255, 255, 255, 0.95); padding: 15px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); z-index: 1000; max-width: 200px;">
-            <h6 style="margin: 0 0 10px 0; color: #667eea; font-size: 14px; font-weight: bold;">卡爾森指數圖例</h6>
-            <div style="font-size: 12px; line-height: 1.8;">
-                <div style="margin: 5px 0;">
-                    <span style="display: inline-block; width: 16px; height: 16px; background: #3498db; border-radius: 50%; margin-right: 8px; vertical-align: middle;"></span>
-                    <span>&lt;40 貧養</span>
-                </div>
-                <div style="margin: 5px 0;">
-                    <span style="display: inline-block; width: 16px; height: 16px; background: #27ae60; border-radius: 50%; margin-right: 8px; vertical-align: middle;"></span>
-                    <span>40-50 普養</span>
-                </div>
-                <div style="margin: 5px 0;">
-                    <span style="display: inline-block; width: 16px; height: 16px; background: #f39c12; border-radius: 50%; margin-right: 8px; vertical-align: middle;"></span>
-                    <span>&gt;50 優養</span>
-                </div>
-            </div>
-        </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" referrerpolicy="no-referrer" defer></script>
+        <script src="https://unpkg.com/topojson@3" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.5.0/chart.umd.min.js" integrity="sha512-Y51n9mtKTVBh3Jbx5pZSJNDDMyY+yGe77DGtBPzRlgsf/YLCh13kSZ3JmfHGzYFCmOndraf0sQgfM654b7dJ3w==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
         <script src="js/water-quality-monitoring.js" defer></script>
     </body>
