@@ -44,8 +44,8 @@ document.querySelectorAll('.main-tab').forEach(function(btn) {
                 var params = parseHash();
                 if (params.year) {
                     currentYear = params.year;
-                    document.getElementById('yearSelect').value = currentYear;
                 }
+                populateYearSelect(currentYear);
                 loadReservoirs(currentYear).then(function() {
                     if (params.reservoir) openReservoirByName(params.reservoir);
                 });
@@ -117,7 +117,7 @@ function formatNum(n, digits) {
 
 function initRtMap() {
     rtMap = L.map('realtimeMap', {
-        center: [23.7, 121],
+        center: [25.033964, 121.564468],
         zoom: 8,
         zoomControl: true
     });
@@ -142,7 +142,7 @@ function initRtMap() {
 function rtZoomOverview() {
     if (rtMap) {
         rtMap.closePopup();
-        rtMap.setView([23.7, 121], 8);
+        rtMap.setView([25.033964, 121.564468], 8);
     }
 }
 
@@ -157,6 +157,7 @@ function loadRealtimeData() {
     ]).then(function(results) {
         var stations = results[0];
         var realtime = results[1];
+
         rtStations = {};
         stations.forEach(function(s) {
             rtStations[s.StationNo] = s;
@@ -323,8 +324,8 @@ function renderRtGrid(data) {
             '</div>' +
             '<div class="rt-card-details">';
 
-        html += '<div class="rt-detail"><span class="label">蓄水量</span><span class="value">' + formatNum(d.effectiveStorage) + ' 萬 m³</span></div>';
-        html += '<div class="rt-detail"><span class="label">容量</span><span class="value">' + formatNum(d.effectiveCapacity) + ' 萬 m³</span></div>';
+        html += '<div class="rt-detail"><span class="label">蓄水量</span><span class="value">' + formatNum(d.effectiveStorage) + ' 萬m³</span></div>';
+        html += '<div class="rt-detail"><span class="label">容量</span><span class="value">' + formatNum(d.effectiveCapacity) + ' 萬m³</span></div>';
         html += '<div class="rt-detail"><span class="label">水位</span><span class="value">' + formatNum(d.waterHeight) + ' m</span></div>';
 
         if (d.inflow !== undefined) {
@@ -392,11 +393,26 @@ initRtMap();
 loadRealtimeData();
 
 var wqLoaded = false;
-var currentYear = '2025';
+var currentYear = String(new Date().getFullYear());
 var reservoirsList = [];
 var reservoirsData = {};
 var allReservoirsData = [];
 var waterUsageData = {};
+
+function populateYearSelect(selectedYear) {
+    var select = document.getElementById('yearSelect');
+    var startYear = 2019;
+    var nowYear = new Date().getFullYear();
+    var endYear = Math.max(nowYear, parseInt(selectedYear, 10));
+    select.innerHTML = '';
+    for (var y = endYear; y >= startYear; y--) {
+        var opt = document.createElement('option');
+        opt.value = String(y);
+        opt.textContent = String(y);
+        if (String(y) === selectedYear) opt.selected = true;
+        select.appendChild(opt);
+    }
+}
 
 function processSVG(svgContent, data) {
     var parser = new DOMParser();
@@ -420,7 +436,7 @@ function processSVG(svgContent, data) {
                     var ctsi = latestData.find(function(item) {
                         return item.itemname === '卡爾森指數' ||
                             item.itemname === '卡爾森優養指數' ||
-                            item.itemname === '卡爾森優養指數(CTSI)';
+                            item.itemname === '卡爾森優養指數（CTSI）';
                     });
 
                     if (ctsi) {
@@ -440,7 +456,7 @@ function processSVG(svgContent, data) {
                         circle.setAttribute('stroke-width', '2');
 
                         var title = svgDoc.createElementNS('http://www.w3.org/2000/svg', 'title');
-                        title.textContent = '測站 ' + locationKey + '\n卡爾森指數: ' + value + '\n日期: ' + dates[0];
+                        title.textContent = '測站 ' + locationKey + '\n卡爾森指數：' + value + '\n日期：' + dates[0];
                         circle.appendChild(title);
                     }
                 }
@@ -511,6 +527,15 @@ function loadReservoirs(year) {
             return fetch('data/' + year + '/list.json');
         })
         .then(function(response) {
+            if (!response.ok) {
+                var fallback = String(parseInt(year, 10) - 1);
+                currentYear = fallback;
+                populateYearSelect(currentYear);
+                return fetch('data/' + fallback + '/list.json')
+                    .then(function(r) {
+                        return r.json();
+                    });
+            }
             return response.json();
         })
         .then(function(list) {
@@ -650,7 +675,7 @@ function renderReservoirsGrid(reservoirs) {
                 var latestData = locationData.data[latestDate];
 
                 var ctsi = latestData.find(function(item) {
-                    return item.itemname === '卡爾森指數' || item.itemname === '卡爾森優養指數' || item.itemname === '卡爾森優養指數(CTSI)';
+                    return item.itemname === '卡爾森指數' || item.itemname === '卡爾森優養指數' || item.itemname === '卡爾森優養指數（CTSI）';
                 });
                 var ph = latestData.find(function(item) {
                     return item.itemname === 'pH';
@@ -687,6 +712,7 @@ var usageChartInstance = null;
 var itemChartInstances = {};
 var chartIdCounter = 0;
 var chartClickInProgress = false;
+var multiYearCache = {};
 
 function showReservoirDetail(reservoir) {
     var modal = document.getElementById('detailModal');
@@ -719,9 +745,9 @@ function showReservoirDetail(reservoir) {
             '<div style="display: flex; justify-content: center; align-items: center; gap: 20px; flex-wrap: wrap;">' +
             '<canvas id="usageChart" style="max-width: 250px; max-height: 250px;"></canvas>' +
             '<div style="display: flex; flex-direction: column; gap: 8px;">' +
-            '<div><span style="display: inline-block; width: 20px; height: 20px; background: #27ae60; margin-right: 8px;"></span><strong>農業用水:</strong> ' + usageData.agriculture.toLocaleString() + ' 萬噸</div>' +
-            '<div><span style="display: inline-block; width: 20px; height: 20px; background: #3498db; margin-right: 8px;"></span><strong>生活用水:</strong> ' + usageData.domestic.toLocaleString() + ' 萬噸</div>' +
-            '<div><span style="display: inline-block; width: 20px; height: 20px; background: #f39c12; margin-right: 8px;"></span><strong>工業用水:</strong> ' + usageData.industrial.toLocaleString() + ' 萬噸</div>' +
+            '<div><span style="display: inline-block; width: 20px; height: 20px; background: #27ae60; margin-right: 8px;"></span><strong>農業用水：</strong> ' + usageData.agriculture.toLocaleString() + ' 萬噸</div>' +
+            '<div><span style="display: inline-block; width: 20px; height: 20px; background: #3498db; margin-right: 8px;"></span><strong>生活用水：</strong> ' + usageData.domestic.toLocaleString() + ' 萬噸</div>' +
+            '<div><span style="display: inline-block; width: 20px; height: 20px; background: #f39c12; margin-right: 8px;"></span><strong>工業用水：</strong> ' + usageData.industrial.toLocaleString() + ' 萬噸</div>' +
             '</div></div></div>';
     }
 
@@ -876,17 +902,17 @@ function showReservoirDetail(reservoir) {
 
                 if (usageData.agriculture > 0) {
                     chartData.push(usageData.agriculture);
-                    labels.push('農業用水 (' + ((usageData.agriculture / total) * 100).toFixed(1) + '%)');
+                    labels.push('農業用水（' + ((usageData.agriculture / total) * 100).toFixed(1) + '%）');
                     colors.push('#27ae60');
                 }
                 if (usageData.domestic > 0) {
                     chartData.push(usageData.domestic);
-                    labels.push('生活用水 (' + ((usageData.domestic / total) * 100).toFixed(1) + '%)');
+                    labels.push('生活用水（' + ((usageData.domestic / total) * 100).toFixed(1) + '%）');
                     colors.push('#3498db');
                 }
                 if (usageData.industrial > 0) {
                     chartData.push(usageData.industrial);
-                    labels.push('工業用水 (' + ((usageData.industrial / total) * 100).toFixed(1) + '%)');
+                    labels.push('工業用水（' + ((usageData.industrial / total) * 100).toFixed(1) + '%）');
                     colors.push('#f39c12');
                 }
 
@@ -973,78 +999,67 @@ function showReservoirDetail(reservoir) {
     }, 100);
 }
 
-function showItemChart(locationKey, itemName, depth, layer, unit, clickedRow) {
-    if (chartClickInProgress) return;
-    chartClickInProgress = true;
-    setTimeout(function() {
-        chartClickInProgress = false;
-    }, 500);
-
-    if (!currentReservoirData) return;
-
-    var locationData = currentReservoirData.data[locationKey];
-    if (!locationData || !locationData.data) return;
-
-    var existingChart = clickedRow.nextElementSibling;
-    if (existingChart && existingChart.classList.contains('chart-row')) {
-        var existingChartId = existingChart.getAttribute('data-chart-id');
-        if (existingChartId && itemChartInstances[existingChartId]) {
-            itemChartInstances[existingChartId].destroy();
-            delete itemChartInstances[existingChartId];
-        }
-        existingChart.remove();
-        return;
-    }
-
-    var chartId = 'chart-' + (chartIdCounter++) + '-' + locationKey + '-' + itemName.replace(/[^a-zA-Z0-9]/g, '');
-
+function extractItemData(locationData, locationKey, itemName, depth, layer) {
+    if (!locationData || !locationData.data) return [];
     var dates = Object.keys(locationData.data).sort();
-    var chartData = [];
-
+    var result = [];
     dates.forEach(function(date) {
         var dateData = locationData.data[date];
         var item = dateData.find(function(d) {
             return d.itemname === itemName && (d.sampledepth || 'default') === depth && (d.samplelayer || 'default') === layer;
         });
-        if (item && item.itemvalue !== null && item.itemvalue !== undefined) {
-            chartData.push({
+        if (item && item.itemvalue !== null && item.itemvalue !== undefined && item.itemvalue !== '-') {
+            var v = parseFloat(item.itemvalue);
+            if (!isNaN(v)) result.push({
                 date: date,
-                value: parseFloat(item.itemvalue)
+                value: v
             });
         }
     });
+    return result;
+}
 
-    if (chartData.length === 0) return;
+function fetchReservoirYear(reservoirName, year) {
+    var cacheKey = year + '/' + reservoirName;
+    if (multiYearCache[cacheKey]) return Promise.resolve(multiYearCache[cacheKey]);
+    return fetch('data/' + year + '/' + encodeURIComponent(reservoirName) + '.json')
+        .then(function(r) {
+            if (!r.ok) return null;
+            return r.json();
+        })
+        .then(function(data) {
+            if (data) multiYearCache[cacheKey] = data;
+            return data;
+        })
+        .catch(function() {
+            return null;
+        });
+}
 
-    var depthLabel = depth !== 'default' ? ' (深度: ' + depth + (layer !== 'default' ? ' ' + layer : '') + ')' : '';
-    var chartTitle = itemName + depthLabel + ' 歷史趨勢';
-
-    var chartRow = document.createElement('tr');
-    chartRow.className = 'chart-row';
-    chartRow.setAttribute('data-chart-id', chartId);
-    chartRow.innerHTML = '<td colspan="4"><div class="chart-container"><span class="chart-close">&times;</span>' +
-        '<h6 style="margin: 0 0 15px 0; color: #667eea;">' + chartTitle + '</h6>' +
-        '<canvas id="' + chartId + '"></canvas></div></td>';
-
-    if (clickedRow && clickedRow.parentNode) {
-        clickedRow.parentNode.insertBefore(chartRow, clickedRow.nextSibling);
-    } else {
-        return;
+var multiYearColors = [{
+        border: '#667eea',
+        bg: 'rgba(102, 126, 234, 0.1)'
+    },
+    {
+        border: '#e6574e',
+        bg: 'rgba(230, 87, 78, 0.1)'
+    },
+    {
+        border: '#27ae60',
+        bg: 'rgba(39, 174, 96, 0.1)'
+    },
+    {
+        border: '#f39c12',
+        bg: 'rgba(243, 156, 18, 0.1)'
+    },
+    {
+        border: '#8e44ad',
+        bg: 'rgba(142, 68, 173, 0.1)'
     }
+];
 
-    chartRow.querySelector('.chart-close').addEventListener('click', function() {
-        if (itemChartInstances[chartId]) {
-            itemChartInstances[chartId].destroy();
-            delete itemChartInstances[chartId];
-        }
-        chartRow.remove();
-    });
-
-    var canvas = chartRow.querySelector('canvas');
-    if (!canvas) return;
-
+function renderSingleYearChart(chartId, canvas, chartData, itemName, unit, chartTitle) {
     if (itemChartInstances[chartId]) itemChartInstances[chartId].destroy();
-
     try {
         itemChartInstances[chartId] = new Chart(canvas.getContext('2d'), {
             type: 'line',
@@ -1102,6 +1117,217 @@ function showItemChart(locationKey, itemName, depth, layer, unit, clickedRow) {
     } catch (error) {
         console.error('Error creating chart:', error);
     }
+}
+
+function renderMultiYearChart(chartId, canvas, yearDatasets, itemName, unit) {
+    if (itemChartInstances[chartId]) itemChartInstances[chartId].destroy();
+
+    var allDates = {};
+    yearDatasets.forEach(function(yd) {
+        yd.data.forEach(function(d) {
+            allDates[d.date] = true;
+        });
+    });
+    var labels = Object.keys(allDates).sort();
+
+    var datasets = yearDatasets.map(function(yd, i) {
+        var color = multiYearColors[i % multiYearColors.length];
+        var valueMap = {};
+        yd.data.forEach(function(d) {
+            valueMap[d.date] = d.value;
+        });
+        return {
+            label: yd.year + ' ' + itemName + ' (' + unit + ')',
+            data: labels.map(function(date) {
+                return valueMap[date] !== undefined ? valueMap[date] : null;
+            }),
+            borderColor: color.border,
+            backgroundColor: color.bg,
+            tension: 0.4,
+            fill: false,
+            pointRadius: 3,
+            pointHoverRadius: 5,
+            spanGaps: false
+        };
+    });
+
+    try {
+        itemChartInstances[chartId] = new Chart(canvas.getContext('2d'), {
+            type: 'line',
+            data: {
+                labels: labels,
+                datasets: datasets
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'top'
+                    },
+                    tooltip: {
+                        mode: 'index',
+                        intersect: false
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: false,
+                        title: {
+                            display: true,
+                            text: unit
+                        }
+                    },
+                    x: {
+                        title: {
+                            display: true,
+                            text: '監測日期'
+                        },
+                        ticks: {
+                            maxRotation: 45,
+                            minRotation: 45
+                        }
+                    }
+                }
+            }
+        });
+    } catch (error) {
+        console.error('Error creating multi-year chart:', error);
+    }
+}
+
+function showItemChart(locationKey, itemName, depth, layer, unit, clickedRow) {
+    if (chartClickInProgress) return;
+    chartClickInProgress = true;
+    setTimeout(function() {
+        chartClickInProgress = false;
+    }, 500);
+
+    if (!currentReservoirData) return;
+
+    var locationData = currentReservoirData.data[locationKey];
+    if (!locationData || !locationData.data) return;
+
+    var existingChart = clickedRow.nextElementSibling;
+    if (existingChart && existingChart.classList.contains('chart-row')) {
+        var existingChartId = existingChart.getAttribute('data-chart-id');
+        if (existingChartId && itemChartInstances[existingChartId]) {
+            itemChartInstances[existingChartId].destroy();
+            delete itemChartInstances[existingChartId];
+        }
+        existingChart.remove();
+        return;
+    }
+
+    var chartData = extractItemData(locationData, locationKey, itemName, depth, layer);
+    if (chartData.length === 0) return;
+
+    var chartId = 'chart-' + (chartIdCounter++) + '-' + locationKey + '-' + itemName.replace(/[^a-zA-Z0-9]/g, '');
+    var depthLabel = depth !== 'default' ? ' (深度: ' + depth + (layer !== 'default' ? ' ' + layer : '') + ')' : '';
+    var chartTitle = itemName + depthLabel + ' 歷史趨勢';
+
+    var chartRow = document.createElement('tr');
+    chartRow.className = 'chart-row';
+    chartRow.setAttribute('data-chart-id', chartId);
+    chartRow.innerHTML = '<td colspan="4"><div class="chart-container"><span class="chart-close">&times;</span>' +
+        '<h6 style="margin: 0 0 10px 0; color: #667eea;">' + chartTitle + '</h6>' +
+        '<div class="multi-year-toggle" style="margin-bottom:10px;text-align:right;">' +
+        '<button class="multi-year-btn" style="padding:4px 12px;border:1px solid #667eea;background:#fff;color:#667eea;border-radius:4px;cursor:pointer;font-size:13px;">近 5 年趨勢</button>' +
+        '</div>' +
+        '<canvas id="' + chartId + '"></canvas></div></td>';
+
+    if (clickedRow && clickedRow.parentNode) {
+        clickedRow.parentNode.insertBefore(chartRow, clickedRow.nextSibling);
+    } else {
+        return;
+    }
+
+    chartRow.querySelector('.chart-close').addEventListener('click', function() {
+        if (itemChartInstances[chartId]) {
+            itemChartInstances[chartId].destroy();
+            delete itemChartInstances[chartId];
+        }
+        chartRow.remove();
+    });
+
+    var canvas = chartRow.querySelector('canvas');
+    if (!canvas) return;
+
+    renderSingleYearChart(chartId, canvas, chartData, itemName, unit, chartTitle);
+
+    var multiYearBtn = chartRow.querySelector('.multi-year-btn');
+    var showingMultiYear = false;
+
+    multiYearBtn.addEventListener('click', function() {
+        if (showingMultiYear) {
+            showingMultiYear = false;
+            multiYearBtn.textContent = '近 5 年趨勢';
+            multiYearBtn.style.background = '#fff';
+            multiYearBtn.style.color = '#667eea';
+            renderSingleYearChart(chartId, canvas, chartData, itemName, unit, chartTitle);
+            return;
+        }
+
+        multiYearBtn.disabled = true;
+        multiYearBtn.textContent = '載入中...';
+
+        var baseYear = parseInt(currentYear, 10);
+        var years = [];
+        for (var y = baseYear; y >= baseYear - 4 && y >= 2019; y--) {
+            years.push(String(y));
+        }
+
+        var reservoirName = currentReservoirData.name;
+
+        multiYearCache[currentYear + '/' + reservoirName] = currentReservoirData.data;
+
+        var fetches = years.map(function(yr) {
+            if (yr === currentYear) return Promise.resolve({
+                year: yr,
+                data: currentReservoirData.data
+            });
+            return fetchReservoirYear(reservoirName, yr).then(function(data) {
+                return {
+                    year: yr,
+                    data: data
+                };
+            });
+        });
+
+        Promise.all(fetches).then(function(results) {
+            var yearDatasets = [];
+            results.forEach(function(r) {
+                if (!r.data || !r.data[locationKey]) return;
+                var items = extractItemData(r.data[locationKey], locationKey, itemName, depth, layer);
+                if (items.length > 0) yearDatasets.push({
+                    year: r.year,
+                    data: items
+                });
+            });
+
+            yearDatasets.sort(function(a, b) {
+                return a.year.localeCompare(b.year);
+            });
+
+            if (yearDatasets.length === 0) {
+                multiYearBtn.textContent = '無歷史資料';
+                multiYearBtn.disabled = false;
+                return;
+            }
+
+            showingMultiYear = true;
+            multiYearBtn.textContent = '僅顯示' + currentYear;
+            multiYearBtn.style.background = '#667eea';
+            multiYearBtn.style.color = '#fff';
+            multiYearBtn.disabled = false;
+
+            renderMultiYearChart(chartId, canvas, yearDatasets, itemName, unit);
+        }).catch(function() {
+            multiYearBtn.textContent = '載入失敗';
+            multiYearBtn.disabled = false;
+        });
+    });
 }
 
 var reservoirMap = null;
@@ -1180,7 +1406,7 @@ function initializeReservoirMap(reservoir, locationKeys) {
                 if (dates.length > 0) {
                     var latestData = locationData.data[dates[0]];
                     var ctsi = latestData.find(function(item) {
-                        return item.itemname === '卡爾森指數' || item.itemname === '卡爾森優養指數' || item.itemname === '卡爾森優養指數(CTSI)';
+                        return item.itemname === '卡爾森指數' || item.itemname === '卡爾森優養指數' || item.itemname === '卡爾森優養指數（CTSI）';
                     });
 
                     if (ctsi) {
@@ -1328,7 +1554,7 @@ function parseHash() {
     var parsedYear = currentYear;
 
     if (parts.length >= 1 && parts[0]) {
-        if (['2019', '2020', '2021', '2022', '2023', '2024', '2025'].includes(parts[0])) {
+        if (/^20\d{2}$/.test(parts[0])) {
             parsedYear = parts[0];
         }
     }
@@ -1351,7 +1577,7 @@ window.addEventListener('hashchange', function() {
     var params = parseHash();
     if (params.year !== currentYear) {
         currentYear = params.year;
-        document.getElementById('yearSelect').value = currentYear;
+        populateYearSelect(currentYear);
         document.getElementById('detailModal').classList.remove('show');
         loadReservoirs(currentYear).then(function() {
             var searchTerm = document.getElementById('searchInput').value.toLowerCase().trim();
@@ -1394,7 +1620,7 @@ function initSupplyTab() {
     supplyLoaded = true;
 
     supplyMap = L.map('supplyMap', {
-        center: [23.7, 121],
+        center: [25.033964, 121.564468],
         zoom: 8,
         zoomControl: true
     });
@@ -1646,7 +1872,7 @@ document.getElementById('supplyReservoirSelect').addEventListener('change', func
                 });
             });
         }
-        if (supplyMap) supplyMap.setView([23.7, 121], 8);
+        if (supplyMap) supplyMap.setView([25.033964, 121.564468], 8);
         return;
     }
     renderSupplyForReservoir(name);
