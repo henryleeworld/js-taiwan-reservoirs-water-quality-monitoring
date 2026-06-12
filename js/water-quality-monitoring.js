@@ -146,14 +146,28 @@ function rtZoomOverview() {
     }
 }
 
-function loadRealtimeData() {
-    Promise.all([
-        fetch('https://fhy.wra.gov.tw/WraApi/v1/Reservoir/Station').then(function(r) {
-            return r.json();
-        }),
-        fetch('https://fhy.wra.gov.tw/WraApi/v1/Reservoir/RealTimeInfo').then(function(r) {
+var FHY_API_BASE = 'https://fhy.wra.gov.tw/Api/v2';
+var FHY_API_KEY = 'd6dd3cd4-493f-43a3-92b1-8b2db217da96';
+
+function fetchFhy(path) {
+    return fetch(FHY_API_BASE + path, {
+            headers: {
+                apikey: FHY_API_KEY
+            }
+        })
+        .then(function(r) {
+            if (!r.ok) throw new Error('FHY API ' + path + ' HTTP ' + r.status);
             return r.json();
         })
+        .then(function(json) {
+            return (json && json.Data) || [];
+        });
+}
+
+function loadRealtimeData() {
+    Promise.all([
+        fetchFhy('/Reservoir/Station'),
+        fetchFhy('/Reservoir/Info/RealTime')
     ]).then(function(results) {
         var stations = results[0];
         var realtime = results[1];
@@ -169,16 +183,15 @@ function loadRealtimeData() {
         realtime.forEach(function(rt) {
             var st = rtStations[rt.StationNo];
             if (!st) return;
-            if (rt.PercentageOfStorage === undefined && rt.EffectiveStorage === undefined) return;
+            if (rt.PercentageOfStorage == null && rt.EffectiveStorage == null) return;
             rtMerged.push({
                 stationNo: rt.StationNo,
                 name: st.StationName,
-                lat: st.Latitude,
-                lon: st.Longitude,
+                lat: st.Point ? st.Point.Latitude : null,
+                lon: st.Point ? st.Point.Longitude : null,
                 effectiveCapacity: st.EffectiveCapacity,
                 fullWaterHeight: st.FullWaterHeight,
                 deadWaterHeight: st.DeadWaterHeight,
-                basinName: st.BasinName,
                 importance: st.Importance,
                 time: rt.Time,
                 waterHeight: rt.WaterHeight,
@@ -240,9 +253,9 @@ function renderRtMap() {
             '<tr><th>有效容量</th><td>' + formatNum(d.effectiveCapacity) + ' 萬m³</td></tr>' +
             '<tr><th>水位</th><td>' + formatNum(d.waterHeight) + ' m</td></tr>';
 
-        if (d.inflow !== undefined) popupHtml += '<tr><th>進水量</th><td>' + formatNum(d.inflow) + ' cms</td></tr>';
-        if (d.outflow !== undefined) popupHtml += '<tr><th>出水量</th><td>' + formatNum(d.outflow) + ' cms</td></tr>';
-        if (d.accRainfall !== undefined) popupHtml += '<tr><th>累積雨量</th><td>' + formatNum(d.accRainfall) + ' mm</td></tr>';
+        if (d.inflow != null) popupHtml += '<tr><th>進水量</th><td>' + formatNum(d.inflow) + ' cms</td></tr>';
+        if (d.outflow != null) popupHtml += '<tr><th>出水量</th><td>' + formatNum(d.outflow) + ' cms</td></tr>';
+        if (d.accRainfall != null) popupHtml += '<tr><th>累積雨量</th><td>' + formatNum(d.accRainfall) + ' mm</td></tr>';
 
         popupHtml += '</table>' +
             '<div style="font-size:11px;color:#999;margin-top:4px">' + d.time.replace('T', ' ').substring(0, 16) + '</div>' +
@@ -260,8 +273,7 @@ function sortAndRenderRtGrid() {
     var filtered = rtMerged.slice();
     if (searchTerm) {
         filtered = filtered.filter(function(d) {
-            return d.name.toLowerCase().indexOf(searchTerm) !== -1 ||
-                (d.basinName && d.basinName.toLowerCase().indexOf(searchTerm) !== -1);
+            return d.name.toLowerCase().indexOf(searchTerm) !== -1;
         });
     }
 
@@ -328,13 +340,13 @@ function renderRtGrid(data) {
         html += '<div class="rt-detail"><span class="label">容量</span><span class="value">' + formatNum(d.effectiveCapacity) + ' 萬m³</span></div>';
         html += '<div class="rt-detail"><span class="label">水位</span><span class="value">' + formatNum(d.waterHeight) + ' m</span></div>';
 
-        if (d.inflow !== undefined) {
+        if (d.inflow != null) {
             html += '<div class="rt-detail"><span class="label">進水量</span><span class="value">' + formatNum(d.inflow) + ' cms</span></div>';
         }
-        if (d.outflow !== undefined) {
+        if (d.outflow != null) {
             html += '<div class="rt-detail"><span class="label">出水量</span><span class="value">' + formatNum(d.outflow) + ' cms</span></div>';
         }
-        if (d.accRainfall !== undefined && d.accRainfall > 0) {
+        if (d.accRainfall != null && d.accRainfall > 0) {
             html += '<div class="rt-detail"><span class="label">累積雨量</span><span class="value">' + formatNum(d.accRainfall) + ' mm</span></div>';
         }
 
@@ -456,7 +468,7 @@ function processSVG(svgContent, data) {
                         circle.setAttribute('stroke-width', '2');
 
                         var title = svgDoc.createElementNS('http://www.w3.org/2000/svg', 'title');
-                        title.textContent = '測站 ' + locationKey + '\n卡爾森指數：' + value + '\n日期：' + dates[0];
+                        title.textContent = '測站 ' + locationKey + '\n卡爾森指數: ' + value + '\n日期: ' + dates[0];
                         circle.appendChild(title);
                     }
                 }
@@ -1224,7 +1236,7 @@ function showItemChart(locationKey, itemName, depth, layer, unit, clickedRow) {
     if (chartData.length === 0) return;
 
     var chartId = 'chart-' + (chartIdCounter++) + '-' + locationKey + '-' + itemName.replace(/[^a-zA-Z0-9]/g, '');
-    var depthLabel = depth !== 'default' ? ' (深度: ' + depth + (layer !== 'default' ? ' ' + layer : '') + ')' : '';
+    var depthLabel = depth !== 'default' ? '（深度: ' + depth + (layer !== 'default' ? ' ' + layer : '') + '）' : '';
     var chartTitle = itemName + depthLabel + ' 歷史趨勢';
 
     var chartRow = document.createElement('tr');
@@ -1640,17 +1652,16 @@ function initSupplyTab() {
         fetch('data/city.topo.json').then(function(r) {
             return r.json();
         }),
-        fetch('https://fhy.wra.gov.tw/WraApi/v1/Reservoir/Station').then(function(r) {
-            return r.json();
-        })
+        fetchFhy('/Reservoir/Station')
     ]).then(function(results) {
         supplyData = results[0];
         supplyPlantsData = results[1];
         supplyTopoData = results[2];
         results[3].forEach(function(s) {
+            if (!s.Point) return;
             supplyStations[s.StationName] = {
-                lat: s.Latitude,
-                lng: s.Longitude
+                lat: s.Point.Latitude,
+                lng: s.Point.Longitude
             };
         });
 
