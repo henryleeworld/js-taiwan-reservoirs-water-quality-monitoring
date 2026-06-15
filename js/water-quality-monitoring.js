@@ -11,6 +11,24 @@ fetch('data/floating_solar.json')
     })
     .catch(function() {});
 
+var coordOverrides = {};
+
+var coordOverridesReady = fetch('data/missing_coordinates.json')
+    .then(function(r) {
+        return r.json();
+    })
+    .then(function(data) {
+        (data.stations || []).forEach(function(s) {
+            if (s.Latitude != null && s.Longitude != null) {
+                coordOverrides[s.StationNo] = {
+                    lat: s.Latitude,
+                    lon: s.Longitude
+                };
+            }
+        });
+    })
+    .catch(function() {});
+
 function hasFloatingSolar(name) {
     return floatingSolarNames.some(function(s) {
         return name.indexOf(s) !== -1;
@@ -167,7 +185,8 @@ function fetchFhy(path) {
 function loadRealtimeData() {
     Promise.all([
         fetchFhy('/Reservoir/Station'),
-        fetchFhy('/Reservoir/Info/RealTime')
+        fetchFhy('/Reservoir/Info/RealTime'),
+        coordOverridesReady
     ]).then(function(results) {
         var stations = results[0];
         var realtime = results[1];
@@ -187,8 +206,8 @@ function loadRealtimeData() {
             rtMerged.push({
                 stationNo: rt.StationNo,
                 name: st.StationName,
-                lat: st.Point ? st.Point.Latitude : null,
-                lon: st.Point ? st.Point.Longitude : null,
+                lat: (st.Point && st.Point.Latitude) || (coordOverrides[rt.StationNo] ? coordOverrides[rt.StationNo].lat : null),
+                lon: (st.Point && st.Point.Longitude) || (coordOverrides[rt.StationNo] ? coordOverrides[rt.StationNo].lon : null),
                 effectiveCapacity: st.EffectiveCapacity,
                 fullWaterHeight: st.FullWaterHeight,
                 deadWaterHeight: st.DeadWaterHeight,
@@ -209,7 +228,7 @@ function loadRealtimeData() {
                 return d.time;
             }).sort().reverse();
             var latest = times[0].replace('T', ' ').substring(0, 16);
-            document.getElementById('rtUpdateTime').textContent = '更新: ' + latest;
+            document.getElementById('rtUpdateTime').textContent = '更新：' + latest;
         }
 
         renderRtMap();
@@ -468,7 +487,7 @@ function processSVG(svgContent, data) {
                         circle.setAttribute('stroke-width', '2');
 
                         var title = svgDoc.createElementNS('http://www.w3.org/2000/svg', 'title');
-                        title.textContent = '測站 ' + locationKey + '\n卡爾森指數: ' + value + '\n日期: ' + dates[0];
+                        title.textContent = '測站 ' + locationKey + '\n卡爾森指數：' + value + '\n日期：' + dates[0];
                         circle.appendChild(title);
                     }
                 }
