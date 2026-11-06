@@ -163,6 +163,16 @@
                     "itemvalue": "69",
                     "itemunit": "",
                     "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "濁度",
+                    "itemengname": "",
+                    "itemengabbreviation": "TB",
+                    "itemvalue": "12",
+                    "itemunit": "NTU",
+                    "note": ""
                 }
             ]
         }
