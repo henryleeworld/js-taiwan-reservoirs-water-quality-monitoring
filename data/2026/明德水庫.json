@@ -2249,6 +2249,36 @@
                     "itemvalue": "0.02",
                     "itemunit": "mg\/L",
                     "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "採樣深度",
+                    "itemengname": "",
+                    "itemengabbreviation": "SampleDepth",
+                    "itemvalue": "0.5",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "總有機碳",
+                    "itemengname": "",
+                    "itemengabbreviation": "TOC",
+                    "itemvalue": "3.44",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "總凱氏氮",
+                    "itemengname": "",
+                    "itemengabbreviation": "TKN",
+                    "itemvalue": "-",
+                    "itemunit": "mg\/L",
+                    "note": ""
                 }
             ]
         }
@@ -2850,6 +2880,16 @@
                     "itemengabbreviation": "TB",
                     "itemvalue": "4.1",
                     "itemunit": "NTU",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "總凱氏氮",
+                    "itemengname": "",
+                    "itemengabbreviation": "TKN",
+                    "itemvalue": "-",
+                    "itemunit": "mg\/L",
                     "note": ""
                 }
             ]

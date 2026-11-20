@@ -657,6 +657,16 @@
                     "itemvalue": "9.6",
                     "itemunit": "mg\/L",
                     "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "正磷酸鹽",
+                    "itemengname": "",
+                    "itemengabbreviation": "PO4",
+                    "itemvalue": "-",
+                    "itemunit": "mg\/L",
+                    "note": ""
                 }
             ]
         }

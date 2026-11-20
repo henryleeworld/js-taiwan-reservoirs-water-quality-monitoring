@@ -1279,6 +1279,36 @@
                     "itemvalue": "-",
                     "itemunit": "mg\/L",
                     "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "採樣深度",
+                    "itemengname": "",
+                    "itemengabbreviation": "SampleDepth",
+                    "itemvalue": "0.5",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "氨氮",
+                    "itemengname": "",
+                    "itemengabbreviation": "NH3_N",
+                    "itemvalue": "<0.01",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "卡爾森指數",
+                    "itemengname": "",
+                    "itemengabbreviation": "CTSI",
+                    "itemvalue": "49",
+                    "itemunit": "",
+                    "note": ""
                 }
             ]
         }

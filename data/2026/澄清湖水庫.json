@@ -2813,6 +2813,16 @@
                     "itemvalue": "-",
                     "itemunit": "℃",
                     "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "",
+                    "itemname": "卡爾森指數",
+                    "itemengname": "",
+                    "itemengabbreviation": "CTSI",
+                    "itemvalue": "-",
+                    "itemunit": "",
+                    "note": ""
                 }
             ]
         }

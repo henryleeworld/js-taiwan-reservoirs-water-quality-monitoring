@@ -2821,6 +2821,116 @@
                     "itemvalue": "-",
                     "itemunit": "mg\/L",
                     "note": ""
+                },
+                {
+                    "samplelayer": "中水",
+                    "sampledepth": "17.6",
+                    "itemname": "溶氧(電極法)",
+                    "itemengname": "",
+                    "itemengabbreviation": "DO",
+                    "itemvalue": "2.6",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "中水",
+                    "sampledepth": "17.6",
+                    "itemname": "懸浮固體",
+                    "itemengname": "",
+                    "itemengabbreviation": "SS",
+                    "itemvalue": "7.5",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "中水",
+                    "sampledepth": "17.6",
+                    "itemname": "亞硝酸鹽氮",
+                    "itemengname": "",
+                    "itemengabbreviation": "NO2_N",
+                    "itemvalue": "-",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "底水",
+                    "sampledepth": "34.2",
+                    "itemname": "酸鹼值",
+                    "itemengname": "",
+                    "itemengabbreviation": "pH",
+                    "itemvalue": "7.44",
+                    "itemunit": " ",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "中水",
+                    "sampledepth": "17.6",
+                    "itemname": "溶氧飽和度",
+                    "itemengname": "",
+                    "itemengabbreviation": "DOS",
+                    "itemvalue": "35.3",
+                    "itemunit": "%",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "中水",
+                    "sampledepth": "17.6",
+                    "itemname": "總磷",
+                    "itemengname": "",
+                    "itemengabbreviation": "TP",
+                    "itemvalue": "0.027",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "中水",
+                    "sampledepth": "17.6",
+                    "itemname": "採樣深度",
+                    "itemengname": "",
+                    "itemengabbreviation": "SampleDepth",
+                    "itemvalue": "17.6",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "中水",
+                    "sampledepth": "17.6",
+                    "itemname": "總鹼度",
+                    "itemengname": "",
+                    "itemengabbreviation": "TAlk",
+                    "itemvalue": "-",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "中水",
+                    "sampledepth": "17.6",
+                    "itemname": "總有機碳",
+                    "itemengname": "",
+                    "itemengabbreviation": "TOC",
+                    "itemvalue": "1.56",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "中水",
+                    "sampledepth": "17.6",
+                    "itemname": "化學需氧量",
+                    "itemengname": "",
+                    "itemengabbreviation": "COD",
+                    "itemvalue": "4.8",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "底水",
+                    "sampledepth": "34.2",
+                    "itemname": "卡爾森指數",
+                    "itemengname": "",
+                    "itemengabbreviation": "CTSI",
+                    "itemvalue": "-",
+                    "itemunit": "",
+                    "note": ""
                 }
             ]
         }

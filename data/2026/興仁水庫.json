@@ -153,6 +153,56 @@
                     "itemvalue": "1170",
                     "itemunit": "μmho\/cm25℃",
                     "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "氣溫",
+                    "itemengname": "",
+                    "itemengabbreviation": "TMP",
+                    "itemvalue": "28.7",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "透明度",
+                    "itemengname": "",
+                    "itemengabbreviation": "SD",
+                    "itemvalue": "0.7",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "卡爾森指數",
+                    "itemengname": "",
+                    "itemengabbreviation": "CTSI",
+                    "itemvalue": "63",
+                    "itemunit": "",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "水溫",
+                    "itemengname": "",
+                    "itemengabbreviation": "WT",
+                    "itemvalue": "31.6",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "總鹼度",
+                    "itemengname": "",
+                    "itemengabbreviation": "TAlk",
+                    "itemvalue": "-",
+                    "itemunit": "mg\/L",
+                    "note": ""
                 }
             ]
         }

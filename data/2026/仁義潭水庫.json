@@ -1299,6 +1299,16 @@
                     "itemvalue": "0.34",
                     "itemunit": "mg\/L",
                     "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "水溫",
+                    "itemengname": "",
+                    "itemengabbreviation": "WT",
+                    "itemvalue": "30.6",
+                    "itemunit": "℃",
+                    "note": ""
                 }
             ]
         }
@@ -1910,6 +1920,46 @@
                     "itemengabbreviation": "SampleDepth",
                     "itemvalue": "0.5",
                     "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "化學需氧量",
+                    "itemengname": "",
+                    "itemengabbreviation": "COD",
+                    "itemvalue": "7.1",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "導電度",
+                    "itemengname": "",
+                    "itemengabbreviation": "EC",
+                    "itemvalue": "374",
+                    "itemunit": "μmho\/cm25℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "透明度",
+                    "itemengname": "",
+                    "itemengabbreviation": "SD",
+                    "itemvalue": "1.6",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "總硬度",
+                    "itemengname": "",
+                    "itemengabbreviation": "TH",
+                    "itemvalue": "-",
+                    "itemunit": "mg\/L",
                     "note": ""
                 }
             ]
@@ -2942,6 +2992,16 @@
                     "itemengabbreviation": "NH3_N",
                     "itemvalue": "0.09",
                     "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "底水",
+                    "sampledepth": "7.2",
+                    "itemname": "溶氧飽和度",
+                    "itemengname": "",
+                    "itemengabbreviation": "DOS",
+                    "itemvalue": "90.5",
+                    "itemunit": "%",
                     "note": ""
                 }
             ]

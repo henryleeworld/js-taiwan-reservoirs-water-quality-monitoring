@@ -2119,6 +2119,86 @@
                     "itemvalue": "-",
                     "itemunit": "mg\/L",
                     "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "氨氮",
+                    "itemengname": "",
+                    "itemengabbreviation": "NH3_N",
+                    "itemvalue": "<0.01",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "化學需氧量",
+                    "itemengname": "",
+                    "itemengabbreviation": "COD",
+                    "itemvalue": "22.0",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "總硬度",
+                    "itemengname": "",
+                    "itemengabbreviation": "TH",
+                    "itemvalue": "-",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "總有機碳",
+                    "itemengname": "",
+                    "itemengabbreviation": "TOC",
+                    "itemvalue": "4.61",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "溶氧飽和度",
+                    "itemengname": "",
+                    "itemengabbreviation": "DOS",
+                    "itemvalue": "194.0",
+                    "itemunit": "%",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "硝酸鹽氮",
+                    "itemengname": "",
+                    "itemengabbreviation": "NO3_N",
+                    "itemvalue": "-",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "正磷酸鹽",
+                    "itemengname": "",
+                    "itemengabbreviation": "PO4",
+                    "itemvalue": "-",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "總凱氏氮",
+                    "itemengname": "",
+                    "itemengabbreviation": "TKN",
+                    "itemvalue": "-",
+                    "itemunit": "mg\/L",
+                    "note": ""
                 }
             ]
         }
@@ -3240,6 +3320,36 @@
                     "itemengabbreviation": "WT",
                     "itemvalue": "32.8",
                     "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "底水",
+                    "sampledepth": "47.6",
+                    "itemname": "總凱氏氮",
+                    "itemengname": "",
+                    "itemengabbreviation": "TKN",
+                    "itemvalue": "-",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "底水",
+                    "sampledepth": "47.6",
+                    "itemname": "溶氧(滴定法)",
+                    "itemengname": "",
+                    "itemengabbreviation": "DO2",
+                    "itemvalue": "-",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "底水",
+                    "sampledepth": "47.6",
+                    "itemname": "正磷酸鹽",
+                    "itemengname": "",
+                    "itemengabbreviation": "PO4",
+                    "itemvalue": "-",
+                    "itemunit": "mg\/L",
                     "note": ""
                 }
             ]

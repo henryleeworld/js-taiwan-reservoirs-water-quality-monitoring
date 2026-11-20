@@ -2067,6 +2067,86 @@
                     "itemvalue": "4.6",
                     "itemunit": "NTU",
                     "note": ""
+                },
+                {
+                    "samplelayer": "中下水",
+                    "sampledepth": "16.3",
+                    "itemname": "葉綠素a",
+                    "itemengname": "",
+                    "itemengabbreviation": "Chl_a",
+                    "itemvalue": "2.0",
+                    "itemunit": "μg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "底水",
+                    "sampledepth": "23.5",
+                    "itemname": "導電度",
+                    "itemengname": "",
+                    "itemengabbreviation": "EC",
+                    "itemvalue": "388",
+                    "itemunit": "μmho\/cm25℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "中上水",
+                    "sampledepth": "8.2",
+                    "itemname": "溶氧(滴定法)",
+                    "itemengname": "",
+                    "itemengabbreviation": "DO2",
+                    "itemvalue": "-",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "中上水",
+                    "sampledepth": "8.2",
+                    "itemname": "氨氮",
+                    "itemengname": "",
+                    "itemengabbreviation": "NH3_N",
+                    "itemvalue": "0.01",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "中上水",
+                    "sampledepth": "8.2",
+                    "itemname": "總氮",
+                    "itemengname": "",
+                    "itemengabbreviation": "TN",
+                    "itemvalue": "0.71",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "中上水",
+                    "sampledepth": "8.2",
+                    "itemname": "採樣深度",
+                    "itemengname": "",
+                    "itemengabbreviation": "SampleDepth",
+                    "itemvalue": "8.2",
+                    "itemunit": "m",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "總氮",
+                    "itemengname": "",
+                    "itemengabbreviation": "TN",
+                    "itemvalue": "0.46",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "溶氧(滴定法)",
+                    "itemengname": "",
+                    "itemengabbreviation": "DO2",
+                    "itemvalue": "-",
+                    "itemunit": "mg\/L",
+                    "note": ""
                 }
             ]
         }
@@ -5003,6 +5083,16 @@
                     "itemengname": "",
                     "itemengabbreviation": "NH3_N",
                     "itemvalue": "0.02",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "化學需氧量",
+                    "itemengname": "",
+                    "itemengabbreviation": "COD",
+                    "itemvalue": "<4.0",
                     "itemunit": "mg\/L",
                     "note": ""
                 }

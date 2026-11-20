@@ -557,6 +557,16 @@
                     "itemvalue": "0.031",
                     "itemunit": "mg\/L",
                     "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "葉綠素a",
+                    "itemengname": "",
+                    "itemengabbreviation": "Chl_a",
+                    "itemvalue": "3.4",
+                    "itemunit": "μg\/L",
+                    "note": ""
                 }
             ]
         }
@@ -2591,6 +2601,56 @@
                     "itemvalue": "0.036",
                     "itemunit": "mg\/L",
                     "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "有機氮",
+                    "itemengname": "",
+                    "itemengabbreviation": "Norg",
+                    "itemvalue": "-",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "總凱氏氮",
+                    "itemengname": "",
+                    "itemengabbreviation": "TKN",
+                    "itemvalue": "-",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "中水",
+                    "sampledepth": "9.9",
+                    "itemname": "氣溫",
+                    "itemengname": "",
+                    "itemengabbreviation": "TMP",
+                    "itemvalue": "30.3",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "中水",
+                    "sampledepth": "9.9",
+                    "itemname": "水溫",
+                    "itemengname": "",
+                    "itemengabbreviation": "WT",
+                    "itemvalue": "27.1",
+                    "itemunit": "℃",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "中水",
+                    "sampledepth": "9.9",
+                    "itemname": "有機氮",
+                    "itemengname": "",
+                    "itemengabbreviation": "Norg",
+                    "itemvalue": "-",
+                    "itemunit": "mg\/L",
+                    "note": ""
                 }
             ]
         }
@@ -4013,6 +4073,26 @@
                     "itemvalue": "6.4",
                     "itemunit": "mg\/L",
                     "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "酸鹼值",
+                    "itemengname": "",
+                    "itemengabbreviation": "pH",
+                    "itemvalue": "8.46",
+                    "itemunit": " ",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "濁度",
+                    "itemengname": "",
+                    "itemengabbreviation": "TB",
+                    "itemvalue": "3.3",
+                    "itemunit": "NTU",
+                    "note": ""
                 }
             ]
         }
@@ -4644,6 +4724,26 @@
                     "itemengabbreviation": "pH",
                     "itemvalue": "8.50",
                     "itemunit": " ",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "總凱氏氮",
+                    "itemengname": "",
+                    "itemengabbreviation": "TKN",
+                    "itemvalue": "-",
+                    "itemunit": "mg\/L",
+                    "note": ""
+                },
+                {
+                    "samplelayer": "表水",
+                    "sampledepth": "0.5",
+                    "itemname": "氨氮",
+                    "itemengname": "",
+                    "itemengabbreviation": "NH3_N",
+                    "itemvalue": "<0.01",
+                    "itemunit": "mg\/L",
                     "note": ""
                 }
             ]
